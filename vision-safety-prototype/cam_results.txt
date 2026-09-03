@@ -1,0 +1,9 @@
+DSHOW cam 0: count=15, mean=0.00
+DSHOW cam 1: Not opened
+DSHOW cam 2: Not opened
+MSMF cam 0: count=0, mean=0.00
+MSMF cam 1: Not opened
+MSMF cam 2: Not opened
+DEFAULT cam 0: count=0, mean=0.00
+DEFAULT cam 1: Not opened
+DEFAULT cam 2: Not opened

@@ -1,0 +1,1001 @@
+report_id,report_text,sif_label,risk_level,life_saving_rule,activity,location,hazard,barrier_failure,potential_consequence,source,expert_verified
+0001,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0002,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0003,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0004,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0005,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0006,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0007,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0008,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0009,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0010,Vehicle collided with pedestrian near site gate due to speeding,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0011,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0012,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0013,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0014,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0015,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0016,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0017,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0018,Electrical maintenance started without power isolation,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0019,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0020,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0021,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0022,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0023,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0024,Confined space entry made without permit or gas monitoring,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0025,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0026,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0027,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0028,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0029,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0030,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0031,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0032,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0033,Confined space entry made without permit or gas monitoring,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0034,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0035,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0036,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0037,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0038,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0039,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0040,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0041,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0042,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0043,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0044,Contractor entered underground pit without confined space permit,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0045,Vehicle collided with pedestrian near site gate due to speeding,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0046,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0047,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0048,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0049,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0050,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0051,Employee working inside trench without spoil pile setback,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0052,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0053,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0054,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0055,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0056,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0057,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0058,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0059,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0060,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0061,Personnel walked under load being lifted by mobile crane,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0062,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0063,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0064,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0065,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0066,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0067,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0068,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0069,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0070,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0071,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0072,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0073,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0074,Employee entered vessel before oxygen levels were verified,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0075,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0076,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0077,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0078,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0079,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0080,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0081,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0082,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0083,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0084,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0085,Worker stood below suspended crane load during lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0086,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0087,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0088,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0089,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0090,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0091,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0092,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0093,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0094,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0095,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0096,Employee entered vessel before oxygen levels were verified,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0097,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0098,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0099,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0100,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0101,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0102,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0103,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0104,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0105,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0106,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0107,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0108,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0109,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0110,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0111,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0112,Employee entered vessel before oxygen levels were verified,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0113,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0114,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0115,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0116,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0117,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0118,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0119,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0120,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0121,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0122,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0123,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0124,Trench walls collapsed while worker was inside unsupported excavation,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0125,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0126,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0127,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0128,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0129,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0130,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0131,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0132,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0133,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0134,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0135,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0136,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0137,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0138,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0139,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0140,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0141,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0142,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0143,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0144,Employee working inside trench without spoil pile setback,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0145,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0146,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0147,Vehicle collided with pedestrian near site gate due to speeding,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0148,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0149,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0150,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0151,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0152,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0153,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0154,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0155,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0156,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0157,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0158,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0159,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0160,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0161,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0162,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0163,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0164,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0165,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0166,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0167,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0168,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0169,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0170,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0171,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0172,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0173,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0174,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0175,Vehicle collided with pedestrian near site gate due to speeding,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0176,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0177,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0178,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0179,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0180,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0181,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0182,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0183,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0184,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0185,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0186,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0187,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0188,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0189,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0190,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0191,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0192,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0193,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0194,Driver did not wear seatbelt during transport on plant road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0195,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0196,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0197,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0198,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0199,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0200,Electrical maintenance started without power isolation,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0201,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0202,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0203,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0204,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0205,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0206,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0207,Employee entered vessel before oxygen levels were verified,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0208,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0209,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0210,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0211,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0212,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0213,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0214,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0215,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0216,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0217,Trench walls collapsed while worker was inside unsupported excavation,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0218,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0219,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0220,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0221,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0222,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0223,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0224,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0225,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0226,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0227,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0228,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0229,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0230,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0231,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0232,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0233,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0234,Worker stood below suspended crane load during lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0235,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0236,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0237,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0238,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0239,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0240,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0241,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0242,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0243,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0244,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0245,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0246,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0247,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0248,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0249,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0250,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0251,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0252,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0253,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0254,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0255,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0256,Personnel walked under load being lifted by mobile crane,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0257,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0258,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0259,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0260,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0261,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0262,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0263,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0264,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0265,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0266,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0267,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0268,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0269,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0270,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0271,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0272,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0273,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0274,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0275,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0276,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0277,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0278,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0279,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0280,"Tag line not used, worker exposed under suspended load near loading bay",1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0281,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0282,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0283,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0284,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0285,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0286,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0287,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0288,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0289,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0290,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0291,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0292,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0293,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0294,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0295,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0296,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0297,Personnel walked under load being lifted by mobile crane,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0298,Employee entered vessel before oxygen levels were verified,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0299,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0300,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0301,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0302,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0303,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0304,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0305,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0306,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0307,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0308,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0309,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0310,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0311,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0312,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0313,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0314,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0315,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0316,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0317,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0318,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0319,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0320,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0321,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0322,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0323,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0324,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0325,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0326,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0327,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0328,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0329,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0330,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0331,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0332,Trench walls collapsed while worker was inside unsupported excavation,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0333,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0334,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0335,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0336,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0337,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0338,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0339,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0340,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0341,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0342,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0343,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0344,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0345,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0346,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0347,"Tag line not used, worker exposed under suspended load near loading bay",1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0348,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0349,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0350,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0351,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0352,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0353,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0354,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0355,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0356,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0357,"Tag line not used, worker exposed under suspended load near loading bay",1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0358,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0359,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0360,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0361,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0362,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0363,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0364,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0365,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0366,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0367,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0368,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0369,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0370,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0371,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0372,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0373,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0374,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0375,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0376,Driver did not wear seatbelt during transport on plant road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0377,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0378,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0379,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0380,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0381,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0382,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0383,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0384,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0385,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0386,Trench walls collapsed while worker was inside unsupported excavation,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0387,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0388,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0389,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0390,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0391,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0392,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0393,Employee working inside trench without spoil pile setback,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0394,Vehicle collided with pedestrian near site gate due to speeding,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0395,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0396,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0397,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0398,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0399,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0400,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0401,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0402,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0403,Confined space entry made without permit or gas monitoring,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0404,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0405,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0406,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0407,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0408,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0409,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0410,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0411,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0412,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0413,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0414,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0415,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0416,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0417,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0418,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0419,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0420,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0421,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0422,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0423,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0424,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0425,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0426,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0427,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0428,Electrical maintenance started without power isolation,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0429,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0430,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0431,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0432,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0433,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0434,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0435,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0436,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0437,Vehicle collided with pedestrian near site gate due to speeding,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0438,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0439,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0440,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0441,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0442,Confined space entry made without permit or gas monitoring,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0443,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0444,Worker stood below suspended crane load during lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0445,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0446,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0447,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0448,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0449,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0450,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0451,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0452,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0453,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0454,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0455,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0456,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0457,Vehicle collided with pedestrian near site gate due to speeding,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0458,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0459,"Tag line not used, worker exposed under suspended load near loading bay",1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0460,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0461,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0462,"Tag line not used, worker exposed under suspended load near loading bay",1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0463,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0464,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0465,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0466,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0467,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0468,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0469,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0470,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0471,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0472,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0473,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0474,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0475,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0476,Employee entered vessel before oxygen levels were verified,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0477,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0478,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0479,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0480,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0481,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0482,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0483,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0484,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0485,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0486,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0487,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0488,Employee working inside trench without spoil pile setback,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0489,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0490,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0491,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0492,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0493,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0494,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0495,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0496,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0497,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0498,Driver did not wear seatbelt during transport on plant road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0499,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0500,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0501,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0502,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0503,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0504,Employee working inside trench without spoil pile setback,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0505,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0506,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0507,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0508,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0509,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0510,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0511,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0512,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0513,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0514,Confined space entry made without permit or gas monitoring,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0515,Electrical maintenance started without power isolation,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0516,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0517,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0518,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0519,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0520,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0521,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0522,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0523,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0524,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0525,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0526,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0527,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0528,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0529,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0530,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0531,Employee entered vessel before oxygen levels were verified,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0532,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0533,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0534,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0535,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0536,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0537,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0538,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0539,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0540,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0541,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0542,Worker stood below suspended crane load during lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0543,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0544,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0545,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0546,Electrical maintenance started without power isolation,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0547,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0548,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0549,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0550,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0551,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0552,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0553,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0554,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0555,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0556,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0557,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0558,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0559,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0560,Employee working inside trench without spoil pile setback,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0561,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0562,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0563,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0564,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0565,Personnel walked under load being lifted by mobile crane,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0566,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0567,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0568,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0569,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0570,Trench walls collapsed while worker was inside unsupported excavation,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0571,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0572,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0573,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0574,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0575,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0576,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0577,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0578,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0579,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0580,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0581,Trench walls collapsed while worker was inside unsupported excavation,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0582,Worker stood below suspended crane load during lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0583,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0584,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0585,Personnel walked under load being lifted by mobile crane,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0586,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0587,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0588,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0589,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0590,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0591,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0592,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0593,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0594,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0595,Contractor entered underground pit without confined space permit,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0596,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0597,Driver did not wear seatbelt during transport on plant road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0598,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0599,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0600,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0601,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0602,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0603,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0604,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0605,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0606,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0607,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0608,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0609,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0610,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0611,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0612,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0613,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0614,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0615,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0616,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0617,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0618,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0619,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0620,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0621,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0622,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0623,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0624,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0625,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0626,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0627,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0628,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0629,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0630,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0631,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0632,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0633,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0634,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0635,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0636,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0637,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0638,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0639,Employee working inside trench without spoil pile setback,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0640,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0641,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0642,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0643,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0644,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0645,Employee entered vessel before oxygen levels were verified,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0646,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0647,Contractor entered underground pit without confined space permit,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0648,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0649,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0650,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0651,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0652,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0653,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0654,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0655,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0656,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0657,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0658,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0659,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0660,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0661,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0662,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0663,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0664,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0665,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0666,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0667,Personnel walked under load being lifted by mobile crane,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0668,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0669,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0670,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0671,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0672,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0673,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0674,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0675,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0676,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0677,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0678,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0679,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0680,"Tag line not used, worker exposed under suspended load near loading bay",1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0681,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0682,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0683,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0684,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0685,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0686,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0687,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0688,Confined space entry made without permit or gas monitoring,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0689,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0690,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0691,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0692,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0693,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0694,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0695,Vehicle collided with pedestrian near site gate due to speeding,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0696,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0697,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0698,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0699,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0700,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0701,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0702,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0703,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0704,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0705,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0706,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0707,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0708,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0709,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0710,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0711,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0712,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0713,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0714,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0715,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0716,Worker stood below suspended crane load during lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0717,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0718,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0719,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0720,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0721,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0722,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0723,Employee working inside trench without spoil pile setback,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0724,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0725,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0726,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0727,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0728,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0729,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0730,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0731,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0732,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0733,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0734,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0735,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0736,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0737,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0738,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0739,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0740,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0741,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0742,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0743,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0744,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0745,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0746,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0747,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0748,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0749,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0750,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0751,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0752,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0753,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0754,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0755,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0756,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0757,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0758,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0759,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0760,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0761,Personnel walked under load being lifted by mobile crane,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0762,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0763,Electrical maintenance started without power isolation,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0764,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0765,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0766,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0767,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0768,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0769,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0770,Machine guard removed while equipment was still running,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0771,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0772,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0773,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0774,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0775,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0776,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0777,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0778,Electrical maintenance started without power isolation,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0779,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0780,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0781,Electrical maintenance started without power isolation,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0782,Personnel walked under load being lifted by mobile crane,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0783,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0784,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0785,Vehicle collided with pedestrian near site gate due to speeding,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0786,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0787,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0788,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0789,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0790,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0791,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0792,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0793,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0794,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0795,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0796,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0797,Contractor entered underground pit without confined space permit,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0798,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0799,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0800,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0801,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0802,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0803,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0804,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0805,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0806,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0807,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0808,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0809,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0810,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0811,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0812,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0813,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0814,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0815,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0816,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0817,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0818,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0819,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0820,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0821,Driver did not wear seatbelt during transport on plant road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0822,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0823,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0824,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0825,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0826,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0827,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0828,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0829,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0830,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0831,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0832,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0833,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0834,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0835,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0836,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0837,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0838,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0839,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0840,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0841,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0842,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0843,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0844,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0845,Employee working inside trench without spoil pile setback,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0846,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0847,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0848,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0849,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0850,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0851,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0852,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0853,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0854,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0855,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0856,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0857,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0858,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0859,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0860,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0861,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0862,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0863,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0864,Worker entered tank without atmospheric gas testing,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0865,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0866,Worker climbed scaffold without securing safety harness,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0867,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0868,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0869,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0870,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0871,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0872,Chemical spill occurred during transfer without containment,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0873,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0874,Contractor entered underground pit without confined space permit,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0875,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0876,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0877,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0878,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0879,Contractor entered underground pit without confined space permit,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0880,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0881,Worker stood below suspended crane load during lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0882,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0883,"Small water spill near pantry area, promptly cleaned",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0884,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0885,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0886,Employee entered vessel before oxygen levels were verified,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0887,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0888,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0889,Crane operator lifted load exceeding rated capacity,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0890,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0891,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0892,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0893,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0894,Trench walls collapsed while worker was inside unsupported excavation,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0895,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0896,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0897,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0898,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0899,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0900,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0901,Hot work carried out without fire watch present,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0902,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0903,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0904,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0905,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0906,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0907,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0908,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0909,Contractor entered underground pit without confined space permit,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0910,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0911,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0912,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0913,Rigger positioned himself in line of fire while load was being hoisted,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0914,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0915,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0916,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0917,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0918,Minor documentation gap noted during routine audit,0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0919,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0920,Electrician bypassed LOTO procedure while repairing motor circuit,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0921,Employee cleaned rotating equipment without stopping machine,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0922,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0923,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0924,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0925,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0926,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0927,Minor housekeeping issue near office entrance,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0928,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0929,Trench walls collapsed while worker was inside unsupported excavation,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0930,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0931,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0932,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0933,Worker stood below suspended crane load during lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0934,Worker entered unshored trench deeper than 1.5 meters,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0935,Monitor height adjustment requested for workstation comfort,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0936,Confined space entry made without permit or gas monitoring,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0937,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0938,Grinding operation performed without gas testing near process unit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0939,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0940,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0941,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0942,Employee working at height with harness lanyard unattached,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0943,Electrical maintenance started without power isolation,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0944,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0945,Worker walked on unprotected edge at elevated platform,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0946,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0947,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0948,Welding started near flammable material without hot work permit,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0949,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0950,Driver was using mobile phone while operating vehicle on site road,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0951,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0952,Technician worked on live panel without lockout tagout,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0953,Contractor entered underground pit without confined space permit,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0954,Contractor entered underground pit without confined space permit,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0955,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0956,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0957,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0958,Trench walls collapsed while worker was inside unsupported excavation,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0959,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0960,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0961,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0962,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0963,Overloaded sling used during material lifting operation,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0964,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0965,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0966,Personnel removed guardrail without fall protection in place,1,Critical,Work at Height,Working at Height,Scaffold Area,Fall Hazard,Harness Not Anchored,Fall From Height,Synthetic,No
+0967,Load lifted without verifying rigging certification,1,Critical,Line of Fire,Lifting Operations,Loading Area,Overhead Crane,Load Chart Exceeded,Structural Failure,Synthetic,No
+0968,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0969,"Wet floor in canteen without warning sign, corrected quickly",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0970,Worker reached into moving conveyor without lockout,1,Critical,Machine Guarding,Machine Operation,Workshop,Rotating Equipment,Guard Removed,Amputation,Synthetic,No
+0971,"Cable lying on office floor, minor trip hazard noted",0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0972,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0973,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0974,"Tag line not used, worker exposed under suspended load near loading bay",1,Critical,Line of Fire,Lifting Operations,Loading Area,Suspended Load,Exclusion Zone Breach,Fatal Crushing,Synthetic,No
+0975,Energized equipment opened for repair without isolation verification,1,Critical,Energy Isolation,Electrical Maintenance,Production Area,Electrical Energy,LOTO Not Applied,Electrocution,Synthetic,No
+0976,Loose stationery observed on office desk,0,Low,None,Housekeeping,Office,Slip Hazard,None,Minor Injury,Synthetic,No
+0977,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0978,Employee exposed to acid fumes due to ventilation failure,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0979,Worker handled corrosive chemical without proper PPE,1,Critical,Chemical Handling,Chemical Handling,Chemical Storage,Corrosive Substance,PPE Not Worn,Chemical Burn,Synthetic,No
+0980,Employee reported minor back discomfort from office chair,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0981,Minor slip near canteen entrance due to spilled water,0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0982,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0983,Small bruise reported after minor bump against equipment,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0984,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0985,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+0986,Employee reported minor splinter while handling wooden pallet,0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0987,Confined space entry made without permit or gas monitoring,1,Critical,Confined Space,Tank Entry,Tank Farm,Toxic Atmosphere,Gas Testing Skipped,Asphyxiation,Synthetic,No
+0988,Excavation work carried out without protective shoring system,1,Critical,Excavation,Excavation Work,Pipeline Trench,Trench Collapse,No Shoring Installed,Burial/Suffocation,Synthetic,No
+0989,"Unlabeled bin found during safety walk, corrected on spot",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0990,"Floor mat displaced near canteen door, minor trip risk",0,Low,None,Housekeeping,Canteen,Wet Floor,Warning Sign Missing,Minor Slip,Synthetic,No
+0991,Cutting torch used near open flammable liquid without isolation,1,Critical,Hot Work,Hot Work,Process Unit,Flammable Atmosphere,Gas Test Not Done,Fire/Explosion,Synthetic,No
+0992,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0993,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No
+0994,"Minor material spillage in warehouse aisle, cleaned immediately",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0995,"Routine inspection found minor housekeeping gap, closed same day",0,Low,None,Inspection Round,Plant Area,Housekeeping,None,No Injury,Synthetic,No
+0996,"Pallet placed close to walkway, minor obstruction noted",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0997,"Worker sustained minor cut while handling tools, first aid given",0,Low,None,General Maintenance,Workshop,Minor Cut Hazard,None,First Aid Case,Synthetic,No
+0998,"Boxes stacked slightly above recommended height, corrected on observation",0,Low,None,Warehouse Operations,Warehouse,Stacked Material,Proper Stacking Missed,Minor Injury,Synthetic,No
+0999,Loose stationery observed on office desk,0,Low,None,Office Work,Office,Ergonomic,None,Minor Discomfort,Synthetic,No
+1000,Truck reversed without spotter near active work zone,1,Critical,Safe Driving,Vehicle Operation,Site Road,Moving Vehicle,Seatbelt Not Worn,Vehicle Collision,Synthetic,No

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+
+# Model weights (too large for GitHub)
+*.pt
+*.onnx
+*.engine
+
+# Face database (private employee data)
+employees/
+violations/
+
+# Runtime data
+auto_reports.json
+auto_reports.json.corrupt.bak
+crash_log.txt
+
+# Camera test images
+cam_index_*.jpg
+cam_test_*.jpg
+live_webcam_test.jpg
+
+# Temp repo
+temp_ppe_repo/
