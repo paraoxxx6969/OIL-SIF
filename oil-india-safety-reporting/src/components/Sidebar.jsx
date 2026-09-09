@@ -12,7 +12,8 @@ import {
   User, 
   LogOut,
   MapPin,
-  Cpu
+  Cpu,
+  Bot
 } from 'lucide-react';
 import { TRANSLATIONS } from '../data/translations';
 
@@ -26,6 +27,7 @@ export default function Sidebar({ currentUser, language = 'en', activeTab, setAc
 
   const empMenu = [
     { id: 'dashboard', label: t.dashboard, icon: LayoutDashboard },
+    { id: 'safety-copilot', label: 'Safety Copilot', icon: Bot, highlight: true },
     { id: 'report-form', label: t.reportFormNav, icon: FilePlus, highlight: true },
     { id: 'my-reports', label: t.myReportsNav, icon: FileText, badge: drafts.length > 0 ? `${drafts.length} drafts` : null, badgeColor: '#D97706' },
     { id: 'notifications', label: t.notificationsNav, icon: Bell },
@@ -34,6 +36,7 @@ export default function Sidebar({ currentUser, language = 'en', activeTab, setAc
 
   const adminMenu = [
     { id: 'dashboard', label: t.dashboard, icon: LayoutDashboard },
+    { id: 'safety-copilot', label: 'Safety Copilot', icon: Bot, highlight: true },
     { id: 'ai-dashboard', label: 'AI Precursor Analytics', icon: Cpu, highlight: true, badge: sifYesCount > 0 ? `${sifYesCount} SIF` : null, badgeColor: '#DC2626' },
     { id: 'all-reports', label: t.allReportsNav, icon: FileText, badge: openCount > 0 ? openCount.toString() : null },
     { id: 'reports-by-area', label: t.reportsByAreaNav, icon: Layers },

@@ -9,6 +9,7 @@ import AdminDashboard from './components/AdminDashboard';
 import ReportsByArea from './components/ReportsByArea';
 import AdminReportsTable from './components/AdminReportsTable';
 import AdminAiDashboard from './components/AdminAiDashboard';
+import SafetyCopilot from './components/SafetyCopilot';
 import ReportDetailModal from './components/ReportDetailModal';
 import { processReport } from './services/aiEngine';
 import { MOCK_USERS } from './data/initialData';
@@ -289,6 +290,14 @@ export default function App() {
           {/* ── EMPLOYEE VIEWS ─────────────────────────────────────────── */}
           {isEmployee && (
             <>
+              {activeTab === 'safety-copilot' && (
+                <SafetyCopilot
+                  currentUser={currentUser}
+                  language={language}
+                  reports={reports}
+                />
+              )}
+
               {activeTab === 'dashboard' && (
                 <EmployeeDashboard
                   currentUser={currentUser}
@@ -359,6 +368,14 @@ export default function App() {
           {/* ── ADMIN VIEWS ────────────────────────────────────────────── */}
           {!isEmployee && (
             <>
+              {activeTab === 'safety-copilot' && (
+                <SafetyCopilot
+                  currentUser={currentUser}
+                  language={language}
+                  reports={reports}
+                />
+              )}
+
               {activeTab === 'dashboard' && (
                 <AdminDashboard
                   reports={reports}
