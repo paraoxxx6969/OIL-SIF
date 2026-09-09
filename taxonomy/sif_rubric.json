@@ -1,0 +1,42 @@
+{
+  "factors": [
+    {
+      "name": "energy_level",
+      "description": "Was a high-energy source present (height, pressure, electrical, mechanical, vehicle, gravity)?",
+      "scoring_guide": {
+        "0": "No meaningful energy source involved",
+        "1": "Moderate energy present but controlled or low-magnitude",
+        "2": "High-magnitude energy present (height >2m, high pressure, high voltage, heavy suspended load, moving vehicle)"
+      }
+    },
+    {
+      "name": "barrier_failure",
+      "description": "Did a critical safety barrier/control fail, or was one absent (PPE, isolation, permit, guard, procedure)?",
+      "scoring_guide": {
+        "0": "All relevant barriers were in place and functioning",
+        "1": "A barrier was degraded, late, or partially bypassed",
+        "2": "A critical barrier was fully absent, defeated, or bypassed"
+      }
+    },
+    {
+      "name": "human_proximity",
+      "description": "Was a person in the direct exposure/impact path of the hazard?",
+      "scoring_guide": {
+        "0": "No person in the exposure path",
+        "1": "Person was near but not directly in the exposure path",
+        "2": "Person was directly in the line of fire / exposure path"
+      }
+    },
+    {
+      "name": "exposure_duration",
+      "description": "Was the exposure momentary or prolonged?",
+      "scoring_guide": {
+        "0": "No real exposure occurred",
+        "1": "Exposure was brief/momentary",
+        "2": "Exposure was prolonged or repeated"
+      }
+    }
+  ],
+  "sif_threshold": 7,
+  "scoring": "Each factor is scored 0-2. Total is out of 8. A total score of 7 or higher classifies the report as high SIF-potential (sif_potential = true). Threshold was raised from 6 to 7 after the first labeling pass over-flagged 74% of reports against the ~20-25% published industry baseline."
+}

@@ -1,0 +1,114 @@
+report_id,cluster_id,cluster_name,sif_potential,method
+R001,2,pipe_hand_line_continued_amputation,True,bertopic
+R002,0,truck_finger_working_employee_equipment,True,bertopic
+R003,1,gas_nearby_area_valve_tank,True,bertopic
+R004,1,gas_nearby_area_valve_tank,False,bertopic
+R005,2,pipe_hand_line_continued_amputation,False,bertopic
+R006,2,pipe_hand_line_continued_amputation,False,bertopic
+R007,0,truck_finger_working_employee_equipment,False,bertopic
+R008,2,pipe_hand_line_continued_amputation,True,bertopic
+R009,2,pipe_hand_line_continued_amputation,True,bertopic
+R010,0,truck_finger_working_employee_equipment,False,bertopic
+R011,1,gas_nearby_area_valve_tank,True,bertopic
+R012,1,gas_nearby_area_valve_tank,True,bertopic
+R013,1,gas_nearby_area_valve_tank,True,bertopic
+R014,0,truck_finger_working_employee_equipment,True,bertopic
+R015,0,truck_finger_working_employee_equipment,True,bertopic
+R016,0,truck_finger_working_employee_equipment,True,bertopic
+R017,0,truck_finger_working_employee_equipment,True,bertopic
+R018,0,truck_finger_working_employee_equipment,True,bertopic
+R019,0,truck_finger_working_employee_equipment,True,bertopic
+R020,0,truck_finger_working_employee_equipment,True,bertopic
+R021,0,truck_finger_working_employee_equipment,True,bertopic
+R022,6,road_break_slid_broken_employee suffered,True,bertopic
+R023,6,road_break_slid_broken_employee suffered,False,bertopic
+R024,0,truck_finger_working_employee_equipment,True,bertopic
+R025,3,permit_signed_isolation_crew_entry,False,bertopic
+R026,2,pipe_hand_line_continued_amputation,False,bertopic
+R027,4,repeated_pressure_shift_kept_closed,True,bertopic
+R028,4,repeated_pressure_shift_kept_closed,False,bertopic
+R029,3,permit_signed_isolation_crew_entry,False,bertopic
+R030,3,permit_signed_isolation_crew_entry,False,bertopic
+R031,5,load_lift_crane_rated_operator,True,bertopic
+R032,1,gas_nearby_area_valve_tank,False,bertopic
+R033,0,truck_finger_working_employee_equipment,False,bertopic
+R034,3,permit_signed_isolation_crew_entry,False,bertopic
+R035,4,repeated_pressure_shift_kept_closed,True,bertopic
+R036,4,repeated_pressure_shift_kept_closed,False,bertopic
+R037,4,repeated_pressure_shift_kept_closed,False,bertopic
+R038,3,permit_signed_isolation_crew_entry,True,bertopic
+R039,4,repeated_pressure_shift_kept_closed,False,bertopic
+R040,3,permit_signed_isolation_crew_entry,True,bertopic
+R041,3,permit_signed_isolation_crew_entry,False,bertopic
+R042,4,repeated_pressure_shift_kept_closed,False,bertopic
+R043,4,repeated_pressure_shift_kept_closed,False,bertopic
+R044,3,permit_signed_isolation_crew_entry,False,bertopic
+R045,1,gas_nearby_area_valve_tank,False,bertopic
+R046,2,pipe_hand_line_continued_amputation,False,bertopic
+R047,3,permit_signed_isolation_crew_entry,False,bertopic
+R048,1,gas_nearby_area_valve_tank,True,bertopic
+R049,2,pipe_hand_line_continued_amputation,False,bertopic
+R050,5,load_lift_crane_rated_operator,True,bertopic
+R051,2,pipe_hand_line_continued_amputation,False,bertopic
+R052,0,truck_finger_working_employee_equipment,False,bertopic
+R053,1,gas_nearby_area_valve_tank,True,bertopic
+R054,1,gas_nearby_area_valve_tank,False,bertopic
+R055,1,gas_nearby_area_valve_tank,False,bertopic
+R056,1,gas_nearby_area_valve_tank,False,bertopic
+R057,5,load_lift_crane_rated_operator,False,bertopic
+R058,0,truck_finger_working_employee_equipment,False,bertopic
+R059,0,truck_finger_working_employee_equipment,False,bertopic
+R060,2,pipe_hand_line_continued_amputation,False,bertopic
+R061,5,load_lift_crane_rated_operator,False,bertopic
+R062,5,load_lift_crane_rated_operator,False,bertopic
+R063,2,pipe_hand_line_continued_amputation,False,bertopic
+R064,5,load_lift_crane_rated_operator,False,bertopic
+R065,6,road_break_slid_broken_employee suffered,False,bertopic
+R066,6,road_break_slid_broken_employee suffered,False,bertopic
+R067,6,road_break_slid_broken_employee suffered,False,bertopic
+R068,6,road_break_slid_broken_employee suffered,False,bertopic
+R069,3,permit_signed_isolation_crew_entry,False,bertopic
+R070,3,permit_signed_isolation_crew_entry,False,bertopic
+R071,5,load_lift_crane_rated_operator,False,bertopic
+R072,3,permit_signed_isolation_crew_entry,False,bertopic
+R073,3,permit_signed_isolation_crew_entry,False,bertopic
+R074,4,repeated_pressure_shift_kept_closed,False,bertopic
+R075,4,repeated_pressure_shift_kept_closed,False,bertopic
+R076,4,repeated_pressure_shift_kept_closed,False,bertopic
+R077,0,truck_finger_working_employee_equipment,False,bertopic
+R078,4,repeated_pressure_shift_kept_closed,False,bertopic
+R079,4,repeated_pressure_shift_kept_closed,False,bertopic
+R080,3,permit_signed_isolation_crew_entry,False,bertopic
+R081,3,permit_signed_isolation_crew_entry,False,bertopic
+R082,3,permit_signed_isolation_crew_entry,False,bertopic
+R083,4,repeated_pressure_shift_kept_closed,False,bertopic
+R084,1,gas_nearby_area_valve_tank,False,bertopic
+R085,2,pipe_hand_line_continued_amputation,False,bertopic
+R086,4,repeated_pressure_shift_kept_closed,False,bertopic
+R087,5,load_lift_crane_rated_operator,False,bertopic
+R088,3,permit_signed_isolation_crew_entry,False,bertopic
+R089,2,pipe_hand_line_continued_amputation,False,bertopic
+R090,2,pipe_hand_line_continued_amputation,False,bertopic
+R091,5,load_lift_crane_rated_operator,False,bertopic
+R092,2,pipe_hand_line_continued_amputation,False,bertopic
+R093,2,pipe_hand_line_continued_amputation,False,bertopic
+R094,1,gas_nearby_area_valve_tank,False,bertopic
+R095,1,gas_nearby_area_valve_tank,False,bertopic
+R096,1,gas_nearby_area_valve_tank,False,bertopic
+R097,1,gas_nearby_area_valve_tank,False,bertopic
+R098,1,gas_nearby_area_valve_tank,False,bertopic
+R099,5,load_lift_crane_rated_operator,False,bertopic
+R100,0,truck_finger_working_employee_equipment,False,bertopic
+R101,0,truck_finger_working_employee_equipment,False,bertopic
+R102,0,truck_finger_working_employee_equipment,False,bertopic
+R103,5,load_lift_crane_rated_operator,False,bertopic
+R104,5,load_lift_crane_rated_operator,False,bertopic
+R105,5,load_lift_crane_rated_operator,False,bertopic
+R106,5,load_lift_crane_rated_operator,False,bertopic
+R107,2,pipe_hand_line_continued_amputation,False,bertopic
+R108,5,load_lift_crane_rated_operator,False,bertopic
+R109,6,road_break_slid_broken_employee suffered,False,bertopic
+R110,6,road_break_slid_broken_employee suffered,False,bertopic
+R111,6,road_break_slid_broken_employee suffered,False,bertopic
+R112,0,truck_finger_working_employee_equipment,False,bertopic
+R113,6,road_break_slid_broken_employee suffered,False,bertopic

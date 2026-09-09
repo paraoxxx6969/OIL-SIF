@@ -1,0 +1,82 @@
+report_id,report_text,rule_tags,llm_tags,llm_top_confidence,disagreement_type,priority
+R029,"Night shift electrician isolated the breaker for panel work without a signed electrical permit, relying only on verbal sign-off.",energy_isolation,energy_isolation;work_authorisation,0.98,llm_only,1
+R030,"Vessel entry team entered a separator for inspection using the previous day's permit, which had already expired at shift change.",confined_space,confined_space;work_authorisation,0.98,llm_only,1
+R033,Scaffold was used for working at height before the scaffold tag inspection had been completed and signed.,working_at_height,work_authorisation;working_at_height,0.98,llm_only,1
+R034,New contractor crew started excavation near buried pipeline markers without obtaining an excavation permit.,,work_authorisation,0.98,llm_only,1
+R038,Interlock on the guard door of a shale shaker was defeated with a jumper wire so the crew could clear a blockage without stopping the equipment.,,bypassing_safety_controls;energy_isolation,0.98,llm_only,1
+R044,"Crew removed a lockout on a conveyor to check a jam, without re-isolating before reaching in.",energy_isolation,energy_isolation;line_of_fire,0.98,llm_only,1
+R053,Welder began cutting near a tank containing residual hydrocarbon vapors without a gas test beforehand.,confined_space,hot_work,0.98,partial_disagree,1
+R066,A crew truck driver exceeded the site speed limit on a gravel access road and lost control on a curve.,,driving,0.98,llm_only,1
+R067,A night-shift driver was assigned a long solo trip to a remote well pad without a fatigue break and drifted into the oncoming lane.,,driving,0.98,llm_only,1
+R069,"Wireline crew began rig-up work using a permit written for a different pad, since the correct one had not been issued yet.",,work_authorisation,0.98,llm_only,1
+R083,"A hydraulic line was assumed depressurized after shutdown, but stored pressure remained and sprayed fluid when disconnected.",,energy_isolation;line_of_fire,0.98,llm_only,1
+R096,A grinder was used near an open drum of solvent that had not been moved out of the hot work area.,,hot_work,0.98,llm_only,1
+R001,"Two employees were observing a crew reconfiguring a wellhead when trapped pressure was released inside the well and blew shrapnel - nuts, bolts, and valve parts - at them. One employee suffered an amp",energy_isolation,energy_isolation;line_of_fire,0.95,llm_only,1
+R005,"An employee was closing a manhole cover in the floor of a mud pit when a disconnected 6-inch discharge line lying next to the cover shifted, pinching the end of his finger between the floor grating an",confined_space,line_of_fire,0.95,partial_disagree,1
+R006,"An employee was moving fluid from one end of a pit to the other, which required opening a metal grating hatch. While standing up, the hatch closed on his hand, amputating two fingertips.",,line_of_fire,0.95,llm_only,1
+R008,"A worker was hit by the tongs on his arm, chest, and leg after the snub line connected to the tongs snapped, causing the tongs to swing around and strike him. His hand was amputated.",,line_of_fire,0.95,llm_only,1
+R009,"A pipeline was being cleaned using a pig. The pig shot out of the pipeline and struck the employee, injuring the lower part of his body.",,line_of_fire,0.95,llm_only,1
+R010,"An employee was tightening a strap to tie down equipment on his truck when the pry bar came out of the hole and hit him in the mouth, fracturing his jaw.",,line_of_fire,0.95,llm_only,1
+R011,"Two employees were performing compression checks on cylinders. One opened the gas valve while the other bent over to light the starter. The gas flashed, engulfing an employee and causing second degree",,hot_work;line_of_fire,0.95,llm_only,1
+R014,"An employee working on a rig fell approximately 5.5 feet from the top of a scavenger tank/platform to the matting board, requiring stitches to the head. Guardrails on top of the platform had been remo",working_at_height,bypassing_safety_controls;working_at_height,0.95,llm_only,1
+R018,An employee's finger was crushed during rigging-down operations at a well site. Surgery was required to remove the finger to the first knuckle.,safe_mechanical_lifting,line_of_fire;safe_mechanical_lifting,0.95,llm_only,1
+R020,"An employee was lowering a roof over the mud tanks area during rigging-down procedures when the roof fell on top of him, fracturing his ribs.",safe_mechanical_lifting,line_of_fire;safe_mechanical_lifting,0.95,llm_only,1
+R022,"An employee was driving down a lease road, struck a rock, over-corrected, and ran off the road into larger rocks that deployed the airbag. The employee suffered a possible concussion.",,driving,0.95,llm_only,1
+R026,Contractor began pipe fitting work on a live line before the JSA for the task was reviewed with the crew at toolbox talk.,work_authorisation,energy_isolation;work_authorisation,0.95,llm_only,1
+R031,Rigger began a crane lift near overhead power lines without a lift plan sign-off from the site supervisor.,safe_mechanical_lifting,safe_mechanical_lifting;work_authorisation,0.95,llm_only,1
+R032,"Hot work permit was issued for a grinding job, but the fire watch was pulled to another task before the work finished.",hot_work,bypassing_safety_controls;hot_work;work_authorisation,0.95,llm_only,1
+R035,"Pressure relief valve was gagged after repeated lifting during startup, to keep the unit online for the shift.",safe_mechanical_lifting,bypassing_safety_controls,0.95,partial_disagree,1
+R036,Emergency shutdown pushbutton on the wellhead was taped over to prevent accidental trips during a workover.,,bypassing_safety_controls,0.95,llm_only,1
+R037,Gas detector alarm in the compressor shed was silenced and left disabled after nuisance alarms the previous week.,,bypassing_safety_controls,0.95,llm_only,1
+R040,Seatbelt interlock on a forklift was disconnected because it kept stalling the engine on rough ground.,driving,bypassing_safety_controls;driving,0.95,llm_only,1
+R045,"Worker entered a mud pit for cleaning without a current gas test, relying on the previous day's reading.",confined_space,bypassing_safety_controls;confined_space;work_authorisation,0.95,llm_only,1
+R047,"Two workers entered a separator vessel for inspection without a signed entry permit, assuming it was a quick look.",confined_space,confined_space;work_authorisation,0.95,llm_only,1
+R051,A crew member stood near a pressurized hose connection while it was being pressure-tested.,,line_of_fire,0.95,llm_only,1
+R052,A worker positioned himself between a truck and a loading rack while the truck was still being spotted.,,line_of_fire,0.95,llm_only,1
+R055,"A hot work permit was issued for one location, but the crew moved to weld at a second spot without re-checking the atmosphere there.",hot_work,hot_work;work_authorisation,0.95,llm_only,1
+R058,An employee leaned over an unguarded edge of a tank roof to retrieve a dropped tool.,,working_at_height,0.95,llm_only,1
+R060,"A crew member stood on the top rung of a stepladder to reach a valve, losing balance when it wobbled.",,working_at_height,0.95,llm_only,1
+R063,A worker stood within the fall radius while guiding a suspended pipe rack into place by hand.,,line_of_fire;safe_mechanical_lifting,0.95,llm_only,1
+R064,"A tagline was not used during the lift of an awkward-shaped load, allowing it to spin and strike a nearby worker.",,line_of_fire;safe_mechanical_lifting,0.95,llm_only,1
+R070,"A pipefitter started tie-in work after the permit's time window had expired, assuming the extension was automatic.",,work_authorisation,0.95,llm_only,1
+R071,Crane operator moved a load without a signed lift permit because the crew lead said they had done this move before.,safe_mechanical_lifting,safe_mechanical_lifting;work_authorisation,0.95,llm_only,1
+R072,Electrical isolation was performed by a technician who was not listed as an authorized isolator on the permit.,energy_isolation,energy_isolation;work_authorisation,0.95,llm_only,1
+R073,A confined space entry was authorized verbally by a supervisor over radio instead of a signed permit.,confined_space,confined_space;work_authorisation,0.95,llm_only,1
+R074,A pressure switch that kept nuisance-tripping the pump was wired around during a night shift to avoid repeated callouts.,,bypassing_safety_controls;work_authorisation,0.95,llm_only,1
+R075,Guard on a rotating shaft was removed to clear a wrap and not reinstalled before restart.,,bypassing_safety_controls;line_of_fire,0.95,llm_only,1
+R076,A high-high level alarm on a tank was muted in the DCS after repeated false alarms during a rain event.,,bypassing_safety_controls,0.95,llm_only,1
+R077,A fall-arrest anchor point's failed inspection tag was ignored and the line was used anyway because no spare was available.,working_at_height,bypassing_safety_controls;working_at_height,0.95,llm_only,1
+R078,A vehicle's reverse alarm was disconnected after complaints about noise on night shift.,driving,bypassing_safety_controls;driving,0.95,llm_only,1
+R079,"A technician assumed a valve was closed based on the handle position, without confirming with a pressure gauge.",,energy_isolation,0.95,llm_only,1
+R081,"A worker removed a lock from an isolated breaker to test if power was restored, without informing the crew.",energy_isolation,bypassing_safety_controls;energy_isolation,0.95,llm_only,1
+R082,An isolation certificate was transferred to a new crew without a walkdown to confirm the points were still isolated.,energy_isolation,energy_isolation;work_authorisation,0.95,llm_only,1
+R087,A worker climbed into a pit through a secondary opening that had not been included in the entry permit.,confined_space,confined_space;work_authorisation,0.95,llm_only,1
+R088,Rescue equipment listed on the confined space permit was not actually staged at the entry point.,confined_space,confined_space;work_authorisation,0.95,llm_only,1
+R089,A worker crouched next to a wellhead during a pressure test instead of standing behind the designated barrier.,,line_of_fire,0.95,llm_only,1
+R090,An employee reached into a pinch point on a conveyor to clear debris while it was still running.,line_of_fire,energy_isolation;line_of_fire,0.95,llm_only,1
+R092,Two workers stood on opposite sides of a pipe being straightened under tension when it snapped.,,line_of_fire,0.95,llm_only,1
+R093,A worker stood downwind of a pressure relief vent during a blowdown.,,line_of_fire,0.95,llm_only,1
+R095,Gas testing was performed at the start of a hot work job but not repeated after a shift change several hours later.,,hot_work;work_authorisation,0.95,llm_only,1
+R097,Hot work continued through a wind shift that blew sparks toward a nearby vent stack.,,hot_work,0.95,llm_only,1
+R098,"A contractor began cutting a pipe believed to be empty, but residual product ignited when the torch made contact.",,energy_isolation;hot_work,0.95,llm_only,1
+R102,"Scaffold planks were missing toe boards, and a dropped tool struck a worker below.",,line_of_fire;working_at_height,0.95,llm_only,1
+R103,A worker climbed onto equipment to gain height instead of using the available man-lift.,,working_at_height,0.95,llm_only,1
+R105,"Riggers proceeded with a lift after noticing a frayed section of the sling, planning to inspect it after the job.",safe_mechanical_lifting,bypassing_safety_controls;safe_mechanical_lifting,0.95,llm_only,1
+R107,"A worker used his hands to guide a load into place instead of a tag line, and his fingers were caught.",safe_mechanical_lifting,line_of_fire;safe_mechanical_lifting,0.95,llm_only,1
+R110,A supervisor pressured a driver to keep driving past the mandated rest break to make a delivery window.,,driving,0.95,llm_only,1
+R111,A driver took a shortcut on an unmaintained lease road in heavy rain and became stuck near a wash-out.,,driving,0.95,llm_only,1
+R112,A worker rode in the bed of a pickup truck between well pads instead of using the cab.,,driving,0.95,llm_only,1
+R113,A driver failed to chain up in icy conditions on a mountain access road and slid off the shoulder.,,driving,0.95,llm_only,1
+R002,An employee was injured by an arc flash after equipment was re-energized. The employee was hospitalized.,energy_isolation,energy_isolation;line_of_fire,0.9,llm_only,1
+R023,"An employee was driving an ATV on a gas well access road. Going downhill, the rear end slipped on leaves and the ATV slid into a rut and flipped, throwing the employee off. He suffered a broken collar",,driving,0.9,llm_only,1
+R028,Machine guard on the mud pump was left off after maintenance because reinstalling it was slowing down the next job.,,bypassing_safety_controls;line_of_fire,0.9,llm_only,1
+R084,"Gas testing equipment was not calibrated before use, giving a false safe reading inside a tank.",,confined_space,0.9,llm_only,1
+R004,"An employee was preparing to shoot a fluid level on a well. He screwed an echo gun onto the well casing and opened the casing valve. The outside of the valve threads failed under pressure, releasing H",confined_space,line_of_fire,0.85,partial_disagree,1
+R019,"An employee was loading equipment onto a truck, standing on a lubricator rack/catwalk while releasing straps on a crane, when the catwalk collapsed. He fell about 5 feet to the truck below and hit his",safe_mechanical_lifting,safe_mechanical_lifting;working_at_height,0.85,llm_only,1
+R086,A ventilation blower was turned off partway through the job because it was making entry uncomfortably loud.,confined_space,bypassing_safety_controls;confined_space,0.85,llm_only,1
+R003,"An employee found a frozen injection line and isolated it to pour in methanol to thaw it. While bleeding off gas from the isolated line and opening the needle valve, a flash fire occurred. He was burn",energy_isolation,energy_isolation;hot_work;line_of_fire,0.8,llm_only,1
+R024,An employee operating construction equipment ran off the road at a construction site and suffered broken bones.,,driving,0.8,llm_only,1
+R017,An employee was injured when a Genie man lift rolled over. The employee was hospitalized.,,working_at_height,0.7,llm_only,1
+R021,An employee suffered an amputation injury while rigging up a top drive at a well site.,safe_mechanical_lifting,line_of_fire,0.7,partial_disagree,1
+R016,"A work crew was rigging up and had just installed a guardrail. Before it was secured with bolts, an employee leaned against it and fell 26 feet to the ground, sustaining five fractures to his back.",safe_mechanical_lifting;working_at_height,working_at_height,0.98,rb_only,2
+R065,A driver checked a work order on a mobile phone while driving on a lease road and drifted off the shoulder.,driving;work_authorisation,driving,0.98,rb_only,2

@@ -1,0 +1,88 @@
+{
+  "energy_isolation": {
+    "description": "Verify isolation and zero energy before work begins",
+    "keywords": [
+      "LOTO", "lockout", "tagout", "isolation", "isolated", "de-energize",
+      "de-energise", "residual energy", "zero energy", "verify isolation",
+      "energy source", "stored energy", "trapped pressure", "electrical isolation",
+      "danger tag", "permit to isolate", "re-energized", "energised equipment",
+      "isolation certificate", "point of isolation"
+    ]
+  },
+  "confined_space": {
+    "description": "Obtain authorisation before entering a confined space",
+    "keywords": [
+      "vessel entry", "tank entry", "confined space", "atmosphere test",
+      "gas test", "attendant", "breathing apparatus", "entry permit",
+      "oxygen level", "ventilation", "manhole", "silo entry", "pit entry",
+      "rescue plan", "hole watch", "toxic gas", "H2S", "entry log",
+      "standby person", "restricted entry"
+    ]
+  },
+  "line_of_fire": {
+    "description": "Keep yourself and others out of the line of fire",
+    "keywords": [
+      "struck by", "dropped object", "suspended load", "pinch point",
+      "caught between", "moving object", "vehicle path", "swing radius",
+      "line of fire", "falling object", "rotating equipment", "release of pressure",
+      "spring loaded", "stored mechanical energy", "trapped between",
+      "walked under", "positioned under", "exclusion barrier", "unguarded machinery"
+    ]
+  },
+  "hot_work": {
+    "description": "Control flammables and ignition sources",
+    "keywords": [
+      "welding", "grinding", "ignition source", "flammable", "hot work permit",
+      "gas test before hot work", "spark", "cutting torch", "combustible",
+      "fire watch", "explosive atmosphere", "vapor cloud", "static electricity",
+      "open flame", "fire extinguisher on site", "flash point", "purging",
+      "gas freeing", "naked flame"
+    ]
+  },
+  "working_at_height": {
+    "description": "Protect yourself against a fall when working at height",
+    "keywords": [
+      "fall protection", "harness", "anchor point", "scaffolding", "platform",
+      "tie off", "dropped tool from height", "guardrail", "fall arrest",
+      "ladder", "elevated work", "roof access", "working edge", "safety net",
+      "lanyard", "scaffold tag", "leading edge", "elevated platform inspection"
+    ]
+  },
+  "safe_mechanical_lifting": {
+    "description": "Plan lifting operations and control the area",
+    "keywords": [
+      "crane", "lifting", "rigging", "sling", "load chart", "exclusion zone",
+      "walked under load", "lift plan", "banksman", "signal person",
+      "outrigger", "tag line", "load rated", "hook inspection", "shackle",
+      "overload", "crane certification", "lifting gear inspection"
+    ]
+  },
+  "work_authorisation": {
+    "description": "Work with a valid permit when required",
+    "keywords": [
+      "permit to work", "PTW", "unauthorized", "no permit", "job safety analysis",
+      "JSA", "work order", "expired permit", "permit not displayed",
+      "toolbox talk", "risk assessment not done", "method statement",
+      "authorization missing", "supervisor sign off", "shift handover gap"
+    ]
+  },
+  "bypassing_safety_controls": {
+    "description": "Obtain authorisation before overriding safety controls",
+    "keywords": [
+      "bypassed", "overridden", "disabled alarm", "safety device disabled",
+      "skipped procedure", "interlock defeated", "alarm silenced",
+      "guard removed", "shortcut taken", "procedure not followed",
+      "safety system disabled", "trip bypassed", "override authorization",
+      "temporary bypass"
+    ]
+  },
+  "driving": {
+    "description": "Follow safe driving rules",
+    "keywords": [
+      "vehicle", "speeding", "seatbelt", "phone while driving", "road condition",
+      "journey management", "fatigue driving", "over speed", "reversing",
+      "vehicle inspection", "brake failure", "night driving", "off-road driving",
+      "convoy", "driver fatigue", "unsafe overtaking"
+    ]
+  }
+}

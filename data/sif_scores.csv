@@ -1,0 +1,114 @@
+report_id,energy_level,barrier_failure,human_proximity,exposure_duration,total_score,sif_potential,reasoning
+R002,2,2,2,1,7,true,"An employee was directly in the line of fire of a high-energy electrical arc flash due to a critical isolation barrier failure, resulting in hospitalization."
+R005,1,1,2,1,5,false,"The employee's finger was directly in the pinch point of a shifting, unsecured 6-inch discharge line on the floor, resulting in a momentary crushing injury."
+R001,2,2,2,1,7,true,"High-pressure trapped wellhead energy was released, throwing shrapnel directly at nearby observing employees and causing an amputation."
+R008,2,2,2,1,7,true,"High-magnitude mechanical energy from tensioned rig tongs was released when the snub line snapped, directly striking a worker in the line of fire."
+R007,1,1,2,1,5,false,The employee was directly exposed to low-magnitude mechanical energy from a pinch point between the stump and Kelly during a momentary slip on ice.
+R003,2,2,2,1,7,true,"A flash fire occurred during gas bleed-off and methanol injection, directly exposing the nearby worker to thermal energy and causing burns."
+R006,1,1,2,1,5,false,"The mechanical and gravitational energy of a closing metal hatch impacted the employee's hand, which was directly in the line of fire."
+R009,2,2,2,1,7,true,High-pressure kinetic energy from an ejected pipeline pig directly struck an employee who was positioned in the line of fire.
+R004,2,1,2,1,6,false,High-pressure toxic H2S gas was released directly into the employee's face when the casing valve threads failed.
+R010,1,1,2,1,5,false,"The hazard was the mechanical energy of a tensioned pry bar slipping during manual tie-down, directly striking the employee in the face."
+R011,2,2,2,1,7,true,A flammable gas flash fire engulfed an employee who was directly in the line of fire during a manual ignition sequence.
+R012,2,2,2,1,7,true,"Ignition of leaked flammable hydrocarbon vapors by a heat gun directly exposed three workers to a flash fire, causing third-degree burns."
+R013,2,1,2,1,6,false,An employee clearing a gas pipeline hydrate was directly exposed to high-energy thermal radiation and fire when flammable gases ignited.
+R015,2,1,2,1,6,false,"An employee was directly exposed to a high-elevation gravity hazard on a drill rig platform, resulting in a fall that caused bilateral ankle fractures."
+R016,2,2,2,1,7,true,An employee was directly exposed to high-magnitude gravitational energy when they fell 26 feet due to an unsecured guardrail and lack of fall protection.
+R017,2,1,2,1,6,false,"The high-magnitude gravitational and mechanical energy of a rolling Genie man lift directly impacted the operator inside the basket, leading to hospitalization."
+R018,1,1,2,1,5,false,"The employee's hand was directly in a pinch point of moderate mechanical energy during rigging-down operations, resulting in a momentary crush injury."
+R019,1,2,2,1,6,false,The employee fell 5 feet and hit his head when the catwalk they were standing on structurally failed.
+R020,2,2,2,1,7,true,"A heavy mud tank roof fell directly onto an employee during rig-down due to a failure in the lowering control, causing rib fractures."
+R014,1,2,2,1,6,false,An employee working on a scavenger tank platform was exposed to a gravity hazard from a 5.5-foot fall due to removed guardrails.
+R021,2,1,2,1,6,false,"An employee was directly in the line of fire of high-magnitude mechanical energy from a heavy top drive during rig-up, resulting in an amputation."
+R024,2,1,2,1,6,false,The operator was directly exposed to high-magnitude kinetic energy when the heavy construction equipment they were driving ran off the road.
+R023,2,1,2,1,6,false,The kinetic energy of a rolling ATV directly impacted the operator who was thrown from the vehicle during the crash.
+R025,1,1,1,1,4,false,"The crew bypassed an administrative permit-to-work barrier during a wireline operation, but no physical barriers failed and no active high-energy hazard was released."
+R022,2,1,2,1,6,false,"The driver of a moving vehicle experienced a high-energy kinetic impact when the vehicle ran off the road and struck rocks, directly exposing them to the crash forces."
+R026,1,1,1,1,4,false,"The contractor began working on a live line before conducting a JSA review, exposing them to potential line pressure without completed administrative hazard assessments."
+R028,2,2,1,1,6,false,"A critical physical guard was omitted on a high-energy mud pump, exposing nearby workers to powerful rotating parts."
+R029,1,1,1,0,3,false,"An electrician performed panel work with physical isolation in place but lacked a signed administrative permit, resulting in no direct exposure to live electrical energy."
+R031,2,1,1,1,5,false,The rigger was exposed to high-voltage overhead power lines and a suspended crane load during the initiation of an unauthorized lift.
+R030,1,1,1,1,4,false,"The entry team was exposed to potential confined space atmospheric hazards inside a separator under an expired administrative permit, with no active energy release reported."
+R027,2,2,1,2,7,true,"The operator deliberately bypassed a critical high-pressure safety interlock on an active compressor, exposing nearby shift personnel to potential equipment overpressurization and catastrophic rupture over several hours."
+R032,1,1,1,1,4,false,"The hazard is moderate thermal energy from grinding sparks, with the operator nearby and the fire watch barrier temporarily absent."
+R034,1,1,1,1,4,false,"The contractor crew was excavating near a buried pipeline without a permit, exposing nearby workers to potential mechanical and pressurized hydrocarbon energy."
+R033,1,1,1,1,4,false,"Workers performed work at an unspecified height on a scaffold prior to its inspection tag being signed, presenting a potential gravity hazard without any active physical barrier failure."
+R036,2,2,1,2,7,true,A critical emergency shutdown barrier for high-pressure wellhead energy was deliberately defeated while a workover crew was working in the area.
+R037,2,2,1,0,5,false,"High-pressure gas is present in the compressor shed where operators work, and a critical gas detection barrier was deliberately disabled, though no active leak occurred."
+R041,1,1,2,1,5,false,"The electrician was in direct contact with junction box wiring without verifying zero energy, exposing themselves to potential electrical shock."
+R035,2,2,1,2,7,true,A critical overpressure protection barrier (PRV) was deliberately defeated on a high-pressure process unit while operators were working the shift.
+R039,2,2,1,1,6,false,"A safety-critical low-level trip on a high-pressure separator was deliberately bypassed during active loading operations, defeating a critical barrier with personnel nearby."
+R038,1,2,2,1,6,false,The crew was directly exposed to the mechanical energy of an active shale shaker while clearing a blockage with the safety interlock bypassed.
+R040,1,2,1,2,6,false,"The forklift's seatbelt interlock was deliberately defeated, exposing the operator to potential tip-over and ejection hazards during repeated operation on rough ground."
+R043,1,2,2,1,6,false,The mechanic was directly exposed to potential process energy by beginning work on an unisolated pump due to a LOTO identification error.
+R042,1,2,2,1,6,false,A pipefitter was directly in the line of fire during a momentary release of residual product caused by an incomplete isolation.
+R046,1,1,1,1,4,false,"The entrant was inside a confined space while the attendant briefly left the post, temporarily degrading the monitoring barrier for potential atmospheric hazards."
+R044,1,2,2,1,6,false,A worker placed their hand directly inside the pinch points of an unisolated conveyor after the lockout barrier was removed.
+R045,1,2,2,2,7,true,"The worker entered a confined mud pit for cleaning, directly exposing themselves to potential toxic gas or oxygen deficiency hazards without a current atmospheric test."
+R049,2,1,2,1,6,false,A worker was directly exposed to the gravity hazard of a heavy suspended pipe section by standing directly underneath it in the line of fire.
+R050,2,1,2,1,6,false,"An employee briefly entered the active swing radius of a crane, placing themselves directly in the line of fire of heavy moving machinery."
+R052,1,1,2,1,5,false,The worker was directly in the crush-zone line of fire between a slowly moving truck and a fixed loading rack.
+R051,2,1,1,1,5,false,"A crew member was standing near a high-pressure hose during an active pressure test, exposing them to potential stored energy release."
+R048,2,2,2,1,7,true,The crew entered a confined below-grade vault with potential toxic H2S gas accumulation without performing required atmospheric testing.
+R053,2,2,2,1,7,true,The welder was directly exposed to potential tank explosion energy from igniting residual hydrocarbon vapors due to the complete absence of pre-work gas testing.
+R054,1,1,1,1,4,false,Thermal energy from grinding sparks ignited localized solvent-soaked rags near the operator due to poor housekeeping.
+R055,1,1,1,1,4,false,The welding crew was exposed to moderate thermal energy from hot work in an untested atmosphere due to a failure to perform localized gas testing.
+R056,1,1,0,0,2,false,"Thermal energy from a smoldering ember reignited insulation after hot work due to an incomplete fire watch, with no personnel directly exposed to the hazard."
+R057,1,2,2,1,6,false,The worker was directly exposed to gravitational energy during a fall when the unsecured ladder they were climbing slid out from under them.
+R059,2,2,2,2,8,true,The worker was directly exposed to a high-elevation fall hazard (gravity) while working unanchored on a flare stack.
+R058,2,2,2,1,7,true,An employee was directly exposed to a high-elevation fall hazard from a tank roof due to the absence of a guardrail.
+R047,1,1,2,1,5,false,"Two workers entered a confined separator vessel without a permit, exposing themselves directly to potential atmospheric hazards inside the vessel for a brief duration."
+R060,1,1,2,1,5,false,A worker was directly exposed to a low-height fall hazard after bypassing ladder safety instructions to reach a valve.
+R061,1,2,1,1,5,false,"An under-rated sling was used to rig a load, defeating a critical mechanical integrity barrier and exposing the rigger nearby to gravitational energy from a potential dropped load."
+R063,2,1,2,1,6,false,A worker was positioned directly within the fall radius of a heavy suspended pipe rack while guiding the load by hand instead of using a tagline.
+R062,2,1,1,1,5,false,"A suspended crane load swung due to operating outside load chart limits, presenting a gravitational hazard to nearby ground crew."
+R064,1,1,2,1,5,false,A worker was directly in the line of fire and struck by a spinning suspended load that was being lifted without a tagline.
+R065,1,1,2,1,5,false,The driver was directly exposed to the kinetic energy of a moving vehicle when they became distracted and drifted off the road shoulder.
+R068,2,2,2,1,7,true,The driver was directly exposed to high kinetic energy from a moving vehicle and was ejected due to the complete absence of the seatbelt barrier.
+R066,2,1,2,1,6,false,The driver was directly exposed to high kinetic energy when the crew truck exceeded the speed limit and lost control on a curve.
+R067,2,1,2,2,7,true,The driver was exposed to high kinetic energy during a prolonged solo night drive and was directly in the line of fire when the vehicle drifted into the oncoming lane.
+R069,1,1,0,0,2,false,"The crew commenced routine wireline rig-up under an incorrect administrative permit, with no actual high-energy hazard released or critical physical barrier breached."
+R070,1,1,1,1,4,false,"The pipefitter was performing tie-in work under an expired administrative permit, but no high-magnitude energy source or active hazard release was present."
+R071,2,1,1,1,5,false,"The crane operation involved a suspended load (high-magnitude gravity energy), but the only barrier failure was a missing administrative permit and no personnel were reported in the direct line of fire."
+R072,1,1,1,1,4,false,"An unauthorized technician performed an electrical isolation, representing an administrative permit deviation with no actual release of electrical energy or direct exposure."
+R073,1,1,1,1,4,false,"The hazard is potential atmospheric danger within a confined space, with workers exposed during an entry authorized without a written permit."
+R075,1,2,1,1,5,false,"A critical physical guard was left off a rotating shaft during restart, exposing nearby workers to mechanical entanglement hazards."
+R077,2,2,2,2,8,true,A worker was directly exposed to a high-elevation fall hazard by deliberately bypassing a failed inspection tag and using a compromised fall-arrest anchor.
+R076,1,1,0,0,2,false,"A high-high level alarm on a tank was muted, defeating an early-warning barrier for potential liquid overflow, but no actual release occurred and no personnel were exposed."
+R079,1,1,1,0,3,false,"The technician failed to verify a valve's status using a pressure gauge, presenting a potential but unrealized exposure to pressurized process fluids."
+R078,1,1,1,1,4,false,"A vehicle's reverse warning alarm was disconnected, creating a potential struck-by hazard for night-shift workers in the vicinity of the moving vehicle."
+R081,1,2,1,1,5,false,A worker bypassed a critical LOTO barrier by removing a lock from an electrical breaker without notifying the nearby crew.
+R074,1,2,1,2,6,false,"A critical pressure safety switch on a pump was deliberately bypassed, exposing the system to potential overpressurization while operators were on shift."
+R083,2,2,2,1,7,true,Stored high-pressure hydraulic fluid sprayed directly at the technician disconnecting the line due to a failure to verify depressurization.
+R080,1,1,1,1,4,false,An isolation protocol for an unspecified energy source was only partially implemented with one of two required locks in place before work began.
+R085,1,1,1,1,4,false,"The entrant continued working in a confined space without the required standby attendant present, though no active high-energy hazard was reported."
+R082,1,1,0,0,2,false,"A procedural verification walkdown was missed during an isolation handover, but no active energy release occurred and no personnel were exposed to a hazard."
+R084,2,2,1,1,6,false,Uncalibrated gas detection equipment gave a false-safe reading in a confined space tank containing hazardous gas where workers were preparing to enter.
+R087,1,1,1,1,4,false,"A worker entered a pit through an unpermitted secondary opening, exposing themselves to potential low-magnitude gravity or confined space hazards without any active high-energy source present."
+R086,1,2,1,1,5,false,"A critical ventilation blower was deliberately turned off during a confined space entry, exposing workers inside to potential atmospheric hazards."
+R089,2,2,2,1,7,true,The worker was directly in the line of fire of high-pressure wellhead energy after bypassing the designated protective barrier during a pressure test.
+R090,1,2,2,1,6,false,The employee bypassed critical isolation and guarding barriers by placing their hand directly into the active mechanical pinch point of a running conveyor.
+R091,2,2,2,1,7,true,"A worker walked directly into the line of fire under a high-energy suspended load, bypassing the critical exclusion zone barrier."
+R094,1,2,1,1,5,false,"Thermal energy from welding sparks ignited unshielded insulation, presenting a localized fire hazard to nearby workers."
+R092,2,1,2,1,6,false,"High-magnitude stored mechanical energy was released when a tensioned pipe snapped, directly exposing two nearby workers in the line of fire."
+R093,2,1,2,1,6,false,The worker was directly exposed downwind to high-pressure gas venting during a blowdown operation.
+R088,1,1,1,0,3,false,"The safety report notes missing rescue equipment at a confined space entry, but no high-energy source is specified and no workers were reported inside or directly exposed."
+R095,1,1,1,1,4,false,"A procedural gas testing barrier was missed after a shift change during hot work, but no active gas release or high-magnitude energy source was present."
+R097,1,1,1,1,4,false,"Hot work sparks were blown toward a vent stack, creating a potential ignition hazard near the workers, though no gas release or ignition occurred."
+R096,1,1,1,1,4,false,A worker operating a grinder was exposed to potential flash fire hazards due to the presence of an open drum of flammable solvent in the hot work area.
+R098,1,2,2,1,6,false,A contractor was directly exposed to a flash fire when residual hydrocarbons ignited while they were cutting an unisolated pipe.
+R099,2,1,2,1,6,false,The worker was directly exposed to a high-elevation fall hazard (gravity) while overreaching from an inadequately sized extension ladder.
+R100,2,1,1,1,5,false,A worker on an elevated walkway was exposed to a potential fall from height while connected to an unrated handrail instead of a certified anchor point.
+R101,1,2,2,1,6,false,A worker was directly exposed to a gravity fall hazard when he briefly removed his fall protection harness and slipped.
+R102,1,2,2,1,6,false,A worker was directly struck by gravity energy from a dropped tool due to the complete absence of scaffold toe boards.
+R103,1,1,2,1,5,false,"A worker was directly exposed to a potential fall hazard by climbing onto equipment instead of using a man-lift, though the exact height was unspecified."
+R106,2,1,1,1,5,false,"The high-energy hazard involves a heavy suspended load with compromised crane stability, exposing nearby ground crew to potential crush injuries from a crane tip-over."
+R105,2,1,1,1,5,false,"Riggers performed a lift using a degraded, frayed sling, exposing nearby personnel to gravity energy from a potential dropped load."
+R104,2,2,1,1,6,false,"A heavy suspended load was hoisted using an incorrect sling configuration, presenting potential drop hazards to nearby personnel."
+R107,1,1,2,1,5,false,Mechanical load-handling energy caught a worker's fingers directly in the pinch point during a brief manual positioning task.
+R108,2,2,1,1,6,false,"A heavy suspended load from a dual crane lift was performed with a critical administrative barrier (dual-lift plan) fully absent, with rig personnel working in the vicinity."
+R109,2,1,1,1,5,false,"The hazard involved a moving vehicle at speed with low brake fluid, and the driver was operating the vehicle mid-route without having completed the pre-trip inspection barrier."
+R110,2,1,2,2,7,true,A moving vehicle at speed posed a high-energy hazard to the driver who experienced prolonged fatigue exposure.
+R111,1,1,1,1,4,false,"The hazard involved a vehicle operating on an unmaintained road in heavy rain, with the driver experiencing a minor stuck-vehicle event without direct impact exposure."
+R112,2,1,2,1,6,false,A moving vehicle presented kinetic energy while a worker rode unprotected in the truck bed in the direct path of potential ejection.
+R113,2,2,2,1,7,true,"A moving vehicle slid off a mountain road, representing high mechanical/gravity energy with the driver directly exposed in the cab."

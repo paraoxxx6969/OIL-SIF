@@ -1,0 +1,119 @@
+report_id,method,rule,confidence,evidence,matched_keywords
+R001,rule,energy_isolation,,,trapped pressure
+R002,rule,energy_isolation,,,re-energized
+R003,rule,energy_isolation,,,isolated
+R004,rule,confined_space,,,H2S
+R005,rule,confined_space,,,manhole
+R006,rule,,,,
+R007,rule,line_of_fire,,,caught between
+R008,rule,,,,
+R009,rule,,,,
+R010,rule,,,,
+R011,rule,,,,
+R012,rule,hot_work,,,flammable
+R013,rule,hot_work,,,flammable
+R014,rule,working_at_height,,,platform
+R015,rule,working_at_height,,,platform;elevated work
+R016,rule,working_at_height,,,guardrail
+R016,rule,safe_mechanical_lifting,,,rigging
+R017,rule,,,,
+R018,rule,safe_mechanical_lifting,,,rigging
+R019,rule,safe_mechanical_lifting,,,crane
+R020,rule,safe_mechanical_lifting,,,rigging
+R021,rule,safe_mechanical_lifting,,,rigging
+R022,rule,,,,
+R023,rule,,,,
+R024,rule,,,,
+R025,rule,work_authorisation,,,permit to work
+R026,rule,work_authorisation,,,JSA;toolbox talk
+R027,rule,bypassing_safety_controls,,,bypassed
+R028,rule,,,,
+R029,rule,energy_isolation,,,isolated
+R030,rule,confined_space,,,vessel entry
+R031,rule,safe_mechanical_lifting,,,crane;lift plan
+R032,rule,hot_work,,,grinding;hot work permit;fire watch
+R033,rule,working_at_height,,,scaffold tag
+R034,rule,,,,
+R035,rule,safe_mechanical_lifting,,,lifting
+R036,rule,,,,
+R037,rule,,,,
+R038,rule,,,,
+R039,rule,bypassing_safety_controls,,,overridden
+R040,rule,driving,,,seatbelt
+R041,rule,energy_isolation,,,zero energy
+R042,rule,energy_isolation,,,isolated
+R043,rule,energy_isolation,,,isolation
+R044,rule,energy_isolation,,,lockout
+R045,rule,confined_space,,,gas test
+R046,rule,confined_space,,,tank entry;attendant
+R047,rule,confined_space,,,entry permit
+R048,rule,confined_space,,,H2S
+R049,rule,line_of_fire,,,suspended load
+R049,rule,safe_mechanical_lifting,,,tag line
+R050,rule,line_of_fire,,,swing radius
+R050,rule,safe_mechanical_lifting,,,crane
+R051,rule,,,,
+R052,rule,,,,
+R053,rule,confined_space,,,gas test
+R054,rule,hot_work,,,grinding
+R055,rule,hot_work,,,hot work permit
+R056,rule,hot_work,,,welding;fire watch
+R057,rule,working_at_height,,,platform;ladder
+R058,rule,,,,
+R059,rule,working_at_height,,,harness;anchor point;lanyard
+R060,rule,,,,
+R061,rule,safe_mechanical_lifting,,,sling
+R062,rule,safe_mechanical_lifting,,,crane;load chart
+R063,rule,,,,
+R064,rule,,,,
+R065,rule,work_authorisation,,,work order
+R065,rule,driving,,,phone while driving
+R066,rule,,,,
+R067,rule,,,,
+R068,rule,driving,,,vehicle;seatbelt
+R069,rule,,,,
+R070,rule,,,,
+R071,rule,safe_mechanical_lifting,,,crane
+R072,rule,energy_isolation,,,isolation;electrical isolation
+R073,rule,confined_space,,,confined space
+R074,rule,,,,
+R075,rule,,,,
+R076,rule,,,,
+R077,rule,working_at_height,,,anchor point
+R078,rule,driving,,,vehicle
+R079,rule,,,,
+R080,rule,energy_isolation,,,isolation
+R081,rule,energy_isolation,,,isolated
+R082,rule,energy_isolation,,,isolation;isolated;isolation certificate
+R083,rule,,,,
+R084,rule,,,,
+R085,rule,confined_space,,,attendant
+R086,rule,confined_space,,,ventilation
+R087,rule,confined_space,,,entry permit
+R088,rule,confined_space,,,confined space
+R089,rule,,,,
+R090,rule,line_of_fire,,,pinch point
+R091,rule,line_of_fire,,,walked under
+R091,rule,safe_mechanical_lifting,,,crane
+R092,rule,,,,
+R093,rule,,,,
+R094,rule,hot_work,,,welding
+R095,rule,,,,
+R096,rule,,,,
+R097,rule,,,,
+R098,rule,,,,
+R099,rule,working_at_height,,,platform;ladder
+R100,rule,working_at_height,,,fall protection;anchor point
+R101,rule,working_at_height,,,harness
+R102,rule,,,,
+R103,rule,,,,
+R104,rule,safe_mechanical_lifting,,,sling
+R105,rule,safe_mechanical_lifting,,,sling
+R106,rule,safe_mechanical_lifting,,,crane
+R107,rule,safe_mechanical_lifting,,,tag line
+R108,rule,safe_mechanical_lifting,,,lift plan
+R109,rule,driving,,,vehicle;vehicle inspection
+R110,rule,,,,
+R111,rule,,,,
+R112,rule,,,,
+R113,rule,,,,

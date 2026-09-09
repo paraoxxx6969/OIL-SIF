@@ -3,7 +3,7 @@ Vision Safety Main Script — Webcam PPE + Fire/Smoke Detection + Face Recogniti
 Uses:
   - Hansung-Cho / PPE YOLOv8 model for PPE violations
   - SalahALHaismawi/yolov26-fire-detection  (best.pt) for fire & smoke
-  - OpenCV LBPH Face Recognizer for employee identification
+  - InsightFace ArcFace deep learning face recognition (GPU-accelerated)
 
 Compatible with Python 3.14 — no TensorFlow required.
 
@@ -170,22 +170,40 @@ VIOLATION_CLASSES = {
 }
 
 # ── FIRE / SMOKE DETECTION CLASS MAP ─────────────────────────
-# SalahALHaismawi/yolov26-fire-detection labels (class 0=fire, class 1=smoke)
 FIRE_CLASSES = {
     "fire":  "FIRE DETECTED",
     "smoke": "Smoke Detected",
 }
 
-# ── OPENCV LBPH FACE RECOGNIZER ───────────────────────────────
-# No TensorFlow needed — uses OpenCV's built-in LBPH algorithm
+# ── ARCFACE DEEP LEARNING FACE RECOGNITION ────────────────────────
+# Uses InsightFace (buffalo_sc model) running on CUDA.
+# Each enrolled employee has a mean_embedding.npy (512-dim L2-normalized vector)
+# stored in employees/<EMP_ID>/. Recognition = cosine similarity comparison.
+# Threshold: similarity > 0.45 = match (was tuned for multiple poses enrolled).
 
-face_cascade = cv2.CascadeClassifier(
-    "haarcascade_frontalface_default.xml"
-)
-face_recognizer = cv2.face.LBPHFaceRecognizer_create()
+ARCFACE_SIM_THRESHOLD = 0.45   # Cosine similarity threshold: higher = stricter
 
-# Maps integer label → employee ID
-label_to_id: dict[int, str] = {}
+_arcface_app = None
+_face_embeddings: dict[str, np.ndarray] = {}   # {emp_id: mean_embedding}
+_lbph_fallback = False
+
+# ---- Try loading InsightFace ----
+try:
+    from insightface.app import FaceAnalysis as _FaceAnalysis
+    _arcface_app = _FaceAnalysis(
+        name="buffalo_sc",   # lightweight: detector + ArcFace recognizer
+        providers=["CUDAExecutionProvider", "CPUExecutionProvider"]
+    )
+    _arcface_app.prepare(ctx_id=0, det_size=(320, 320))
+    print("[FACE] ✓ InsightFace ArcFace loaded on GPU.")
+except Exception as _e:
+    print(f"[FACE] InsightFace not available ({_e}). Falling back to LBPH.")
+    _arcface_app = None
+    _lbph_fallback = True
+    # LBPH legacy setup
+    face_cascade     = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+    face_recognizer  = cv2.face.LBPHFaceRecognizer_create()
+    label_to_id: dict[int, str] = {}
 
 def load_registry() -> dict:
     if os.path.exists("employee_registry.json"):
@@ -193,197 +211,240 @@ def load_registry() -> dict:
             return json.load(f)
     return {}
 
-def train_face_recognizer():
+def _load_face_embeddings() -> int:
     """
-    Scans employees/ folder, loads face images, trains LBPH recognizer.
-    Re-run automatically every startup.
+    ArcFace mode: Load precomputed mean_embedding.npy per employee.
+    Returns number of employees loaded.
     """
-    global label_to_id
-    faces, labels = [], []
-    label_idx = 0
+    global _face_embeddings
+    _face_embeddings = {}
+    if not os.path.exists(FACE_DB_PATH):
+        return 0
+    for emp_id in os.listdir(FACE_DB_PATH):
+        emp_folder = os.path.join(FACE_DB_PATH, emp_id)
+        mean_path  = os.path.join(emp_folder, "mean_embedding.npy")
+        if os.path.isdir(emp_folder) and os.path.exists(mean_path):
+            try:
+                emb = np.load(mean_path).astype(np.float32)
+                # Ensure L2 normalized
+                norm = np.linalg.norm(emb)
+                if norm > 0:
+                    emb = emb / norm
+                _face_embeddings[emp_id] = emb
+            except Exception as e:
+                print(f"[FACE] Could not load embedding for {emp_id}: {e}")
+    return len(_face_embeddings)
 
+def _train_lbph_fallback() -> bool:
+    """Legacy LBPH training used only if InsightFace is unavailable."""
+    global label_to_id
+    faces, labels, label_idx = [], [], 0
     if not os.path.exists(FACE_DB_PATH):
         return False
-
     for emp_id in os.listdir(FACE_DB_PATH):
         emp_folder = os.path.join(FACE_DB_PATH, emp_id)
         if not os.path.isdir(emp_folder):
             continue
-
         for img_file in os.listdir(emp_folder):
+            if not img_file.endswith(".jpg"):
+                continue
             img_path = os.path.join(emp_folder, img_file)
             img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
             if img is None:
                 continue
-            # Detect face in stored photo
-            detected = face_cascade.detectMultiScale(img, 1.1, 4)
+            fdet = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+            detected = fdet.detectMultiScale(img, 1.1, 4)
             if len(detected) > 0:
                 for (x, y, w, h) in detected:
                     faces.append(cv2.resize(img[y:y+h, x:x+w], (200, 200)))
                     labels.append(label_idx)
             else:
-                # Fallback: use center crop of the image if face detection fails
                 h_img, w_img = img.shape
                 sz = min(h_img, w_img)
-                cy, cx = h_img // 2, w_img // 2
-                crop = img[cy - sz//2 : cy + sz//2, cx - sz//2 : cx + sz//2]
-                faces.append(cv2.resize(crop, (200, 200)))
-                labels.append(label_idx)
-
+                cy2, cx2 = h_img // 2, w_img // 2
+                crop = img[cy2 - sz//2: cy2 + sz//2, cx2 - sz//2: cx2 + sz//2]
+                if crop.size > 0:
+                    faces.append(cv2.resize(crop, (200, 200)))
+                    labels.append(label_idx)
         if any(l == label_idx for l in labels):
             label_to_id[label_idx] = emp_id
             label_idx += 1
-
     if faces:
         face_recognizer.train(faces, np.array(labels))
-        print(f"[FACE] Trained on {len(faces)} images for {label_idx} employee(s).")
+        print(f"[FACE] LBPH trained on {len(faces)} images for {label_idx} employee(s).")
         return True
-
-    print("[FACE] No enrolled employees found. Persons will show as 'Unidentified'.")
+    print("[FACE] No enrolled employees found.")
     return False
 
-recognizer_trained = train_face_recognizer()
+# Initialise whichever mode is available
+if _arcface_app is not None:
+    _n = _load_face_embeddings()
+    recognizer_trained = _n > 0
+    if recognizer_trained:
+        print(f"[FACE] ✓ ArcFace embeddings loaded for {_n} employee(s).")
+    else:
+        print("[FACE] No ArcFace embeddings found. Run enroll_employee.py first.")
+else:
+    recognizer_trained = _train_lbph_fallback()
+
 registry = load_registry()
 
-# ── TEMPORAL FACE VOTING BUFFER ───────────────────────────────
-# Buffers last N raw LBPH predictions per face-position cluster.
-# Returns the MAJORITY vote — eliminates single-frame flickering.
 
+# ── TEMPORAL FACE VOTING BUFFER ───────────────────────────────
 from collections import deque, Counter
 
-# LBPH confidence is a distance — 0 = perfect, 100+ = no match.
-# Keep strict: only accept predictions below 60 to avoid misidentification.
-CONF_TIGHT      = 60    # Strict threshold — reject matches with conf >= 60
-VOTE_WINDOW     = 12    # Smaller window = faster identity lock-on
-VOTE_THRESHOLD  = 0.65  # Require 65% majority to confirm an ID (was 45%)
-CLUSTER_RADIUS  = 80    # Pixels — same face if centers within this radius
+VOTE_WINDOW    = 10    # Recent frames to vote across
+VOTE_THRESHOLD = 0.55  # 55% majority to confirm ID
+CLUSTER_RADIUS = 80    # Pixels — same face cluster threshold
 
 class FaceVoter:
-    """
-    Tracks face identities across frames using majority voting.
-    Each tracked face keeps a rolling deque of recent raw predictions.
-    """
+    """Temporal majority voter to smooth flickering face IDs across frames."""
     def __init__(self):
-        # List of {center, buffer} for each tracked face
         self._tracks: list[dict] = []
 
-    def _find_track(self, cx: int, cy: int) -> dict | None:
+    def _find_track(self, cx, cy):
         best, best_dist = None, float("inf")
         for t in self._tracks:
-            dx = cx - t["cx"]
-            dy = cy - t["cy"]
-            d  = (dx*dx + dy*dy) ** 0.5
+            d = ((cx - t["cx"])**2 + (cy - t["cy"])**2) ** 0.5
             if d < CLUSTER_RADIUS and d < best_dist:
                 best, best_dist = t, d
         return best
 
-    def update(self, cx: int, cy: int, raw_id: str) -> str:
-        """Feed a raw prediction for a face at (cx, cy). Returns smoothed ID."""
+    def update(self, cx, cy, raw_id):
         track = self._find_track(cx, cy)
         if track is None:
             track = {"cx": cx, "cy": cy,
                      "buf": deque(maxlen=VOTE_WINDOW),
                      "stable_id": "UNKNOWN"}
             self._tracks.append(track)
-
-        # Update centroid with moving average
         track["cx"] = int(track["cx"] * 0.7 + cx * 0.3)
         track["cy"] = int(track["cy"] * 0.7 + cy * 0.3)
         track["buf"].append(raw_id)
-
-        # Majority vote
-        counts  = Counter(track["buf"])
+        counts = Counter(track["buf"])
         top_id, top_count = counts.most_common(1)[0]
-        fraction = top_count / len(track["buf"])
-        if fraction >= VOTE_THRESHOLD:
+        if top_count / len(track["buf"]) >= VOTE_THRESHOLD:
             track["stable_id"] = top_id
-        # else: keep previous stable_id until a clear winner emerges
-
         return track["stable_id"]
 
-    def prune(self, active_centers: list[tuple[int, int]]):
-        """Remove tracks whose face has left the frame."""
+    def prune(self, active_centers):
         def still_active(t):
             for cx, cy in active_centers:
-                dx, dy = cx - t["cx"], cy - t["cy"]
-                if (dx*dx + dy*dy) ** 0.5 < CLUSTER_RADIUS * 2:
+                if ((cx - t["cx"])**2 + (cy - t["cy"])**2) ** 0.5 < CLUSTER_RADIUS * 2:
                     return True
             return False
         self._tracks = [t for t in self._tracks if still_active(t)]
 
-
 _face_voter = FaceVoter()
 
 
-def recognize_all_faces(gray_frame) -> list[dict]:
+def _arcface_match(embedding: np.ndarray) -> tuple[str, float]:
     """
-    Detects ALL faces and returns smoothed identities via temporal voting.
-    Runs detection on a 50%-scaled frame for speed, then maps coords back.
+    Compares an ArcFace embedding against all stored employee embeddings.
+    Returns (best_emp_id, similarity) or ('UNKNOWN', 0.0) if no match.
+    Cosine similarity: 1.0 = identical, 0.0 = unrelated.
+    """
+    best_id, best_sim = "UNKNOWN", 0.0
+    for emp_id, stored_emb in _face_embeddings.items():
+        sim = float(np.dot(embedding, stored_emb))  # Both L2-normalized: dot = cosine sim
+        if sim > best_sim:
+            best_sim = sim
+            best_id  = emp_id
+    if best_sim >= ARCFACE_SIM_THRESHOLD:
+        return best_id, best_sim
+    return "UNKNOWN", best_sim
+
+
+def recognize_all_faces(bgr_frame) -> list[dict]:
+    """
+    ArcFace mode: detects faces via RetinaFace (built into InsightFace),
+    extracts 512-dim embedding, matches against stored employee embeddings.
+    Falls back to LBPH Haar cascade if InsightFace is unavailable.
     Returns list of dicts: {emp_id, emp_name, face_pos, face_rect}
     """
     results = []
-
-    # ── Speed-up: run Haar cascade on 75%-scaled frame ─────────────
-    # 75% (not 50%) so distant/small faces are still above minSize threshold.
-    # At 50% scale, minSize=(40,40) required 80px face in original — too big for distant people.
-    # At 75% scale, minSize=(20,20) catches faces down to ~27px in original (~3-4m away).
-    DETECT_SCALE = 0.75
-    h_f, w_f = gray_frame.shape
-    small = cv2.resize(gray_frame, (int(w_f * DETECT_SCALE), int(h_f * DETECT_SCALE)))
-
-    # scaleFactor=1.1  — finer pyramid = catches more size variations (slightly slower)
-    # minNeighbors=3   — less strict = fewer missed detections at distance
-    # minSize=(20,20)  — at 75% scale → ~27px minimum face in original frame
-    faces_small = face_cascade.detectMultiScale(small, 1.1, 3, minSize=(20, 20))
-
-    # Scale detected rects back to original frame coordinates
-    inv = 1.0 / DETECT_SCALE
-    if len(faces_small) > 0:
-        faces = (faces_small * inv).astype(int)
-    else:
-        faces = []
-
     active_centers = []
-    for (x, y, w, h) in faces:
-        # Clamp to frame bounds
-        x  = max(0, x);  y  = max(0, y)
-        x2 = min(w_f, x + w);  y2 = min(h_f, y + h)
-        w  = x2 - x;  h = y2 - y
-        if w < 20 or h < 20:
-            continue
 
-        cx, cy = x + w // 2, y + h // 2
-        active_centers.append((cx, cy))
+    if _arcface_app is not None:
+        # ── ArcFace path ──────────────────────────────────────
+        try:
+            faces = _arcface_app.get(bgr_frame)
+        except Exception as e:
+            print(f"[FACE] ArcFace error: {e}")
+            return []
 
-        raw_id, raw_name = "UNKNOWN", "Unidentified Person"
-        if recognizer_trained:
-            try:
-                face_roi    = cv2.resize(gray_frame[y:y2, x:x2], (200, 200))
-                label, conf = face_recognizer.predict(face_roi)
-                # Only accept predictions where recognizer is actually confident
-                if conf < CONF_TIGHT:
-                    raw_id   = label_to_id.get(label, "UNKNOWN")
-                    raw_name = registry.get(raw_id, {}).get("name", "Unidentified Person")
-                    print(f"[FACE] Raw match: {raw_id} conf={conf:.1f} (threshold<{CONF_TIGHT})")
+        for face in faces:
+            box = face.bbox.astype(int)
+            x1, y1, x2, y2 = box
+            x1, y1 = max(0, x1), max(0, y1)
+            w, h   = x2 - x1, y2 - y1
+            cx, cy = x1 + w // 2, y1 + h // 2
+            active_centers.append((cx, cy))
+
+            raw_id = "UNKNOWN"
+            if recognizer_trained and hasattr(face, "normed_embedding") and face.normed_embedding is not None:
+                emb = face.normed_embedding.astype(np.float32)
+                matched_id, sim = _arcface_match(emb)
+                if matched_id != "UNKNOWN":
+                    raw_id = matched_id
+                    print(f"[FACE] ArcFace match: {matched_id} sim={sim:.3f}")
                 else:
-                    print(f"[FACE] Rejected match (conf={conf:.1f} >= {CONF_TIGHT}) — treating as UNKNOWN")
-            except Exception as e:
-                print(f"[FACE] Predict error: {e}")
+                    print(f"[FACE] No match (best sim={sim:.3f} < {ARCFACE_SIM_THRESHOLD})")
 
-        # Apply temporal vote smoothing
-        stable_id   = _face_voter.update(cx, cy, raw_id)
-        stable_name = registry.get(stable_id, {}).get("name", "Unidentified Person") \
-                      if stable_id != "UNKNOWN" else "Unidentified Person"
+            stable_id   = _face_voter.update(cx, cy, raw_id)
+            stable_name = registry.get(stable_id, {}).get("name", "Unidentified Person") \
+                          if stable_id != "UNKNOWN" else "Unidentified Person"
+            if stable_id != "UNKNOWN":
+                print(f"[FACE] ✓ Identified: {stable_name} ({stable_id}) [voted]")
 
-        if stable_id != "UNKNOWN":
-            print(f"[FACE] ✓ Identified: {stable_name} ({stable_id}) [voted]")
+            results.append({
+                "emp_id":    stable_id,
+                "emp_name":  stable_name,
+                "face_pos":  (cx, cy),
+                "face_rect": (x1, y1, w, h),
+            })
 
-        results.append({
-            "emp_id":    stable_id,
-            "emp_name":  stable_name,
-            "face_pos":  (cx, cy),
-            "face_rect": (x, y, w, h),
-        })
+    else:
+        # ── LBPH fallback path ──────────────────────────────
+        gray = cv2.cvtColor(bgr_frame, cv2.COLOR_BGR2GRAY) \
+               if len(bgr_frame.shape) == 3 else bgr_frame
+        h_f, w_f = gray.shape
+        small    = cv2.resize(gray, (int(w_f * 0.75), int(h_f * 0.75)))
+        fs       = face_cascade.detectMultiScale(small, 1.1, 3, minSize=(20, 20))
+        if len(fs) > 0:
+            faces_coords = (fs / 0.75).astype(int)
+        else:
+            faces_coords = []
+        for (x, y, w, h) in faces_coords:
+            x  = max(0, x);  y  = max(0, y)
+            x2 = min(w_f, x + w);  y2 = min(h_f, y + h)
+            w  = x2 - x;  h = y2 - y
+            if w < 20 or h < 20:
+                continue
+            cx, cy = x + w // 2, y + h // 2
+            active_centers.append((cx, cy))
+            raw_id = "UNKNOWN"
+            if recognizer_trained:
+                try:
+                    roi = cv2.resize(gray[y:y2, x:x2], (200, 200))
+                    lbl, conf = face_recognizer.predict(roi)
+                    if conf < 60:
+                        raw_id = label_to_id.get(lbl, "UNKNOWN")
+                        print(f"[FACE] LBPH match: {raw_id} conf={conf:.1f}")
+                    else:
+                        print(f"[FACE] LBPH rejected (conf={conf:.1f})")
+                except Exception as e:
+                    print(f"[FACE] LBPH error: {e}")
+            stable_id   = _face_voter.update(cx, cy, raw_id)
+            stable_name = registry.get(stable_id, {}).get("name", "Unidentified Person") \
+                          if stable_id != "UNKNOWN" else "Unidentified Person"
+            if stable_id != "UNKNOWN":
+                print(f"[FACE] ✓ Identified: {stable_name} ({stable_id}) [voted LBPH]")
+            results.append({
+                "emp_id":    stable_id,
+                "emp_name":  stable_name,
+                "face_pos":  (cx, cy),
+                "face_rect": (x, y, w, h),
+            })
 
     _face_voter.prune(active_centers)
     return results
@@ -489,18 +550,17 @@ def post_violation(emp_id, emp_name, violations, frame):
         "No Safety Boots":         2, # High
     }
     
-    max_score = 0
-    for v in violations:
-        score = sif_weights.get(v, 1)
-        if score > max_score:
-            max_score = score
+    total_score = sum(sif_weights.get(v, 1) for v in violations)
             
-    if max_score >= 3:
+    if total_score >= 3:
         severity = "Critical"
-    elif max_score == 2:
+    elif total_score == 2:
         severity = "High"
     else:
         severity = "Medium"
+    # Inject SIF keywords for the React AI Engine to pick up
+    sif_warning = " High risk of serious injury or fatality." if severity == "Critical" else ""
+    
     payload = {
         "employeeId":   emp_id,
         "employeeName": emp_name,
@@ -512,6 +572,7 @@ def post_violation(emp_id, emp_name, violations, frame):
             f"Vision AI detected: {', '.join(violations)}. "
             f"Person: {emp_name} ({emp_id}). "
             f"Zone: {AREA_LABEL}. Time: {datetime.now().strftime('%H:%M:%S, %d-%b-%Y')}."
+            f"{sif_warning}"
         ),
         "snapshot": encode_frame(frame)
     }
@@ -663,6 +724,8 @@ class ThreadedCamera:
         self.cap = cv2.VideoCapture(self.src, cv2.CAP_DSHOW)
 
         if self.cap.isOpened():
+            self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+            self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
             self.is_opened = True
             for _ in range(10):  # Warm up
                 ret, frame = self.cap.read()
@@ -780,8 +843,7 @@ class InferenceWorker:
                 print(f"[FIRE] Detected: {[d['human_label'] for d in new_fire]}")
 
         # 3. Face Recognition (CPU)
-        gray        = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        new_persons = recognize_all_faces(gray)
+        new_persons = recognize_all_faces(frame)
 
         # 4. Geofence checks + alerts
         new_intrusion  = False
@@ -925,6 +987,12 @@ def run():
     print(f"[VISION] ✓ Inference interval: {INFERENCE_INTERVAL*1000:.0f} ms | Display: uncapped")
     print("[ZONE] ✓ Multi-person Restricted Zone geofencing is ACTIVE.")
 
+    win = "Vision Safety Monitor — OIL INDIA (Prototype)"
+    cv2.namedWindow(win, cv2.WINDOW_NORMAL)
+    cv2.setWindowProperty(win, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+    cv2.waitKey(1)
+    _, _, display_width, display_height = cv2.getWindowImageRect(win)
+
     # ── Start async inference worker ─────────────────────────────
     worker = InferenceWorker()
     # Push the first frame immediately so inference starts right away
@@ -1035,7 +1103,20 @@ def run():
             cv2.putText(frame, zone_hud, (8, h_fr - 10),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.52, hud_color, 1)
 
-        cv2.imshow("Vision Safety Monitor — OIL INDIA (Prototype)", frame)
+        if display_width > 0 and display_height > 0:
+            frame_height, frame_width = frame.shape[:2]
+            canvas = np.full(
+                (display_height, display_width, 3),
+                (45, 45, 45),
+                dtype=frame.dtype,
+            )
+            if frame_width <= display_width and frame_height <= display_height:
+                offset_x = (display_width - frame_width) // 2
+                offset_y = (display_height - frame_height) // 2
+                canvas[offset_y:offset_y + frame_height,
+                       offset_x:offset_x + frame_width] = frame
+                frame = canvas
+        cv2.imshow(win, frame)
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 
@@ -1093,7 +1174,8 @@ def define_zone():
         return
 
     WIN = "Zone Editor — Click to Draw Polygon | OIL INDIA"
-    cv2.namedWindow(WIN)
+    cv2.namedWindow(WIN, cv2.WINDOW_NORMAL)
+    cv2.setWindowProperty(WIN, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
     cv2.setMouseCallback(WIN, on_mouse)
 
     saved = False

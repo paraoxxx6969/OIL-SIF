@@ -1,0 +1,98 @@
+dimension,value,n_reports,n_sif,sif_density
+activity,compression,1,1,1.0
+activity,lifting,1,1,1.0
+activity,production,1,1,1.0
+activity,rigging,4,4,1.0
+activity,cutting,2,1,0.5
+activity,loading,3,1,0.3333333333333333
+activity,driving,4,1,0.25
+activity,unspecified,69,16,0.2318840579710145
+activity,blowdown,1,0,0.0
+activity,confined space entry,1,0,0.0
+activity,electrical isolation,1,0,0.0
+activity,excavation,1,0,0.0
+activity,grinding,2,0,0.0
+activity,hot work,5,0,0.0
+activity,inspection,5,0,0.0
+activity,isolation,3,0,0.0
+activity,lockout,1,0,0.0
+activity,maintenance,1,0,0.0
+activity,pipe fitting,1,0,0.0
+activity,shutdown,3,0,0.0
+activity,tank entry,1,0,0.0
+activity,vessel entry,1,0,0.0
+activity,welding,2,0,0.0
+activity,wireline,2,0,0.0
+activity,workover,1,0,0.0
+activity_x_location,rigging @ unspecified,2,2,1.0
+activity_x_location,rigging @ well site,2,2,1.0
+activity_x_location,unspecified @ wellhead,2,1,0.5
+activity_x_location,unspecified @ tank,5,2,0.4
+activity_x_location,driving @ unspecified,4,1,0.25
+activity_x_location,unspecified @ unspecified,53,11,0.20754716981132076
+activity_x_location,grinding @ unspecified,2,0,0.0
+activity_x_location,hot work @ unspecified,4,0,0.0
+activity_x_location,inspection @ unspecified,3,0,0.0
+activity_x_location,inspection @ vessel,2,0,0.0
+activity_x_location,isolation @ unspecified,3,0,0.0
+activity_x_location,unspecified @ pit,4,0,0.0
+activity_x_location,welding @ unspecified,2,0,0.0
+activity_x_location,wireline @ unspecified,2,0,0.0
+barrier_type,detection,2,1,0.5
+barrier_type,physical_barrier,10,4,0.4
+barrier_type,unspecified,71,19,0.2676056338028169
+barrier_type,supervision,8,1,0.125
+barrier_type,isolation,11,1,0.09090909090909091
+barrier_type,permit,16,0,0.0
+barrier_type,ppe,3,0,0.0
+cluster,truck_finger_working_employee_equipment,21,10,0.47619047619047616
+cluster,gas_nearby_area_valve_tank,18,6,0.3333333333333333
+cluster,pipe_hand_line_continued_amputation,17,3,0.17647058823529413
+cluster,load_lift_crane_rated_operator,15,2,0.13333333333333333
+cluster,repeated_pressure_shift_kept_closed,15,2,0.13333333333333333
+cluster,permit_signed_isolation_crew_entry,17,2,0.11764705882352941
+cluster,road_break_slid_broken_employee suffered,10,1,0.1
+equipment,catwalk,1,1,1.0
+equipment,forklift,1,1,1.0
+equipment,shale shaker,1,1,1.0
+equipment,top drive,1,1,1.0
+equipment,welder,1,1,1.0
+equipment,pipeline,3,2,0.6666666666666666
+equipment,valve,9,5,0.5555555555555556
+equipment,compressor,2,1,0.5
+equipment,rig,4,2,0.5
+equipment,tank,8,4,0.5
+equipment,crane,7,3,0.42857142857142855
+equipment,wellhead,3,1,0.3333333333333333
+equipment,unspecified,56,8,0.14285714285714285
+equipment,breaker,3,0,0.0
+equipment,casing,1,0,0.0
+equipment,conveyor,2,0,0.0
+equipment,drum,1,0,0.0
+equipment,flare,1,0,0.0
+equipment,grinder,1,0,0.0
+equipment,hose,1,0,0.0
+equipment,junction box,1,0,0.0
+equipment,kelly,1,0,0.0
+equipment,ladder,2,0,0.0
+equipment,mud pit,2,0,0.0
+equipment,panel,1,0,0.0
+equipment,pipe rack,1,0,0.0
+equipment,pump,3,0,0.0
+equipment,scaffold,2,0,0.0
+equipment,separator,3,0,0.0
+equipment,vessel,2,0,0.0
+location,catwalk,1,1,1.0
+location,tank battery,1,1,1.0
+location,vault,1,1,1.0
+location,well site,2,2,1.0
+location,tank,7,3,0.42857142857142855
+location,wellhead,3,1,0.3333333333333333
+location,unspecified,86,17,0.19767441860465115
+location,confined space,2,0,0.0
+location,control room,1,0,0.0
+location,drum,1,0,0.0
+location,pipe rack,1,0,0.0
+location,pit,4,0,0.0
+location,rig floor,1,0,0.0
+location,vessel,2,0,0.0

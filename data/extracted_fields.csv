@@ -1,0 +1,114 @@
+report_id,equipment,location,activity,barrier_type,ner_person,ner_org,ner_gpe,sif_potential
+R001,valve;wellhead,wellhead,,,,,,True
+R002,,,,isolation,,,,True
+R003,valve,,,,,,,True
+R004,casing;valve,,,,,,,False
+R005,mud pit,pit,,physical_barrier,,,,False
+R006,,pit,,physical_barrier,,,,False
+R007,kelly;rig,rig floor,,,kelly,,,False
+R008,,,,,,,,True
+R009,pipeline,,,,,,,True
+R010,,,,,,,,False
+R011,valve,,compression,,,,,True
+R012,tank,tank,,,,,,True
+R013,pipeline;tank,tank battery,,,,,,True
+R014,rig;tank,tank,,,,,,True
+R015,rig,,,,,,,True
+R016,,,rigging,physical_barrier,,,,True
+R017,,,,,genie,,,True
+R018,,well site,rigging,,,,,True
+R019,catwalk;crane,catwalk,loading,,,,,True
+R020,,,rigging,,,,,True
+R021,top drive,well site,rigging,,,,,True
+R022,,,driving,,,,,True
+R023,,,driving,,,atv,,False
+R024,,,,,,,,True
+R025,,,wireline,permit;supervision,,,,False
+R026,,,pipe fitting,permit,,jsa,,False
+R027,compressor,,production,physical_barrier,,,,True
+R028,pump,,maintenance,physical_barrier,,,,False
+R029,breaker;panel,,,isolation;permit;supervision,,,,False
+R030,separator;vessel,vessel,inspection;vessel entry,permit,,,,False
+R031,crane,,,supervision,,rigger,,True
+R032,,,grinding;hot work,permit,,,,False
+R033,scaffold,,inspection,,scaffold,,,False
+R034,pipeline,,excavation,permit,,,,False
+R035,valve,,lifting,,,,,True
+R036,wellhead,wellhead,shutdown;workover,,,,,False
+R037,compressor,,,,,,,False
+R038,shale shaker,,,physical_barrier,,,,True
+R039,separator,control room,loading;shutdown,,,,,False
+R040,forklift,,,physical_barrier,,,,True
+R041,breaker;junction box,,,isolation,,,,False
+R042,valve,,,,pipefitter,,,False
+R043,pump,,isolation,isolation,,,,False
+R044,conveyor,,lockout,isolation,,,,False
+R045,mud pit,pit,,detection,,,,False
+R046,tank,tank,tank entry,supervision,,,,False
+R047,separator;vessel,vessel,inspection,permit,,,,False
+R048,valve,vault,,,,,,True
+R049,,,,,,,,False
+R050,crane,,,,,,,True
+R051,hose,,,,,,,False
+R052,,,loading,,,,,False
+R053,tank;welder,tank,cutting,detection,welder,,,True
+R054,,,grinding,,,,,False
+R055,,,hot work,permit,,,,False
+R056,,,welding,,,,,False
+R057,ladder,,,,,,,False
+R058,tank,tank,,,,,,False
+R059,flare,,,ppe,,,,False
+R060,valve,,,,,,,False
+R061,,,,,,,,False
+R062,crane,,,,,,,False
+R063,pipe rack,pipe rack,,,,,,False
+R064,,,,,,,,False
+R065,,,driving,,,,,False
+R066,,,,,,,,False
+R067,,,,,,,,False
+R068,,,,,,,,False
+R069,rig,,wireline,permit,,,,False
+R070,,,,permit,,,,False
+R071,crane,,,permit,,,,False
+R072,,,electrical isolation,isolation;permit;supervision,,,,False
+R073,,confined space,confined space entry,permit;supervision,,,,False
+R074,pump,,,,,,,False
+R075,,,,,,,,False
+R076,tank,tank,,,,dcs,,False
+R077,,,inspection,,,,,False
+R078,,,,,,,,False
+R079,valve,,,,,,,False
+R080,,,isolation,isolation,,,,False
+R081,breaker,,,isolation,,,,False
+R082,,,isolation,isolation;permit,,,,False
+R083,,,shutdown,,,,,False
+R084,tank,tank,,,,,,False
+R085,,,,supervision,,,,False
+R086,,,,,,,,False
+R087,,pit,,permit,,,,False
+R088,,confined space,,permit,,,,False
+R089,wellhead,wellhead,,physical_barrier,,,,False
+R090,conveyor,,,,,,,False
+R091,crane,,,,,,,False
+R092,,,,,,,,False
+R093,,,blowdown,isolation,,,,False
+R094,,,welding,physical_barrier,,,,False
+R095,,,hot work,,,,,False
+R096,drum;grinder,drum,hot work,,,,,False
+R097,,,hot work,isolation,,,,False
+R098,,,cutting,,,,,False
+R099,ladder,,,,,,,False
+R100,,,,physical_barrier;ppe,,,,False
+R101,,,,ppe,,,,False
+R102,scaffold,,,,,,,False
+R103,,,,,,,,False
+R104,,,,,,,,False
+R105,,,,,,,,False
+R106,crane,,,,,,,False
+R107,,,,,,,,False
+R108,,,,,,,,False
+R109,,,inspection,,,,,False
+R110,,,driving,supervision,,,,False
+R111,,,,,,,,False
+R112,,,,,,,,False
+R113,,,,,,,,False

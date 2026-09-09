@@ -74,7 +74,7 @@ def receive_violation():
         "description": data.get("description", "PPE violation auto-detected by Vision AI."),
         "violations": data.get("violations", []),
         "date": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "images": [],  # snapshots not stored server-side (prevents file bloat)
+        "images": [data.get("snapshot")] if data.get("snapshot") else [],
         "autoFiled": True
     }
 
